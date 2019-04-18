@@ -1,0 +1,3341 @@
+[MenuPrincipal.dlg/Dialogo]
+ListaAcciones=Mov.Ventas<BR>Mov.Monedero<BR>Mov.Autotransportes<BR>Mov.PuntoVenta<BR>Mov.Servicios<BR>Mov.VentaSurtirCB<BR>Mov.DevVenta<BR>Mov.CR<BR>Mov.Embarque<BR>Mov.Pocket<BR>Mov.PocketRecibos<BR>Mov.PC<BR>Mov.Oferta<BR>Mov.Vales<BR>Mov.AtnClientes<BR>Mov.RSS<BR>Mov.MaviSupervision<BR>Mov.MaviRuta<BR>Mov.Campana<BR>Mov.Formas<BR>Mov.Proyectos<BR>Mov.Dinero<BR>Mov.Credito<BR>Mov.Capital<BR>Mov.Cxc<BR>Mov.Cxp<BR>Mov.Comisiones<BR>Mov.Gasto<BR>Mov.Mantenimiento<BR>Mov.Inventarios<BR>Mov.WMS<BR>Mov.Mermas<BR>Mov.ActivoFijo<BR>Mov.Taller<BR>Mov.Compras<BR>Mov.Importaciones<BR>Mov.ControlCalidad<BR>Mov.AtnProveedores<BR>Mov.Planeador<BR>Mov.Produccion<BR>Mov.AtnProyectos<BR>Mov.ComisionesChoferesMAVI<BR>Mov.Nomina<BR>Mov.Incidencia<BR>Mov.Acceso<BR>Mov.Asiste<BR>Mov.RH<BR>Mov.AtnPersonal<BR>Mov.ServiciosInternos<BR>Mov.GestionTelefonica<BR>Mov.Contabilidad<BR>Mov.Conciliaciones<BR>Mov.Riesgos<BR>Mov.EventosPerdida<BR>Mov.Otros<BR><CONTINUA>
+ListaAcciones002=<CONTINUA>Mov.MaviEmbarqueCasa<BR>EXPDM0174EmbarquesPiso<BR>Mov.CteHuella<BR>Mov.Salir<BR>Hist.Venta<BR>Hist.Compras<BR>Hist.Inventarios<BR>Hist.Cxc<BR>Hist.Cxp<BR>Hist.Nomina<BR>Exp.Ventas<BR>Exp.Autotransportes<BR>Exp.Servicio<BR>Exp.CR<BR>Exp.Atn<BR>Exp.Embarque<BR>Exp.Dinero<BR>Exp.Cxc<BR>Exp.Cxp<BR>Exp.Comisiones<BR>Exp.Gastos<BR>Exp.Inventarios<BR>Exp.ActivoFijo<BR>Exp.Compras<BR>Exp.Produccion<BR>Exp.Nomina<BR>Exp.RH<BR>Exp.Contabilidad<BR>Exp.Fiscal<BR>Exp.Gerenciales<BR>Exp.Articulos<BR>Exp.VIN<BR>Exp.Espacios<BR>Exp.Clientes<BR>Exp.Proveedores<BR>Exp.CtaDinero<BR>Exp.Almacenes<BR>Exp.Agentes<BR>Exp.Personal<BR>Exp.CtaContables<BR>Exp.Proy<BR>Exp.ValeSerie<BR>Exp.Documentacion<BR>Exp.Otros<BR>Cubo.Ventas<BR>Cubo.Autotransportes<BR>Cubo.Servicios<BR>Cubo.EvaluacionServicio<BR>Cubo.AtnClientes<BR>Cubo.CR<BR>Cubo.Embarques<BR>Cubo.Tesoreria<BR>Cubo.Cxc<BR>Cubo.Cxp<BR>Cubo.Inv<CONTINUA>
+ListaAcciones005=<CONTINUA><BR>Herramienta.VentaMostrador<BR>Herramienta.Autotransportes<BR>Herramienta.Embarques<BR>Herramienta.Cxc<BR>Herramienta.Cxp<BR>Herramienta.Gastos<BR>Herramienta.Inv<BR>Herramienta.Prod<BR>Herramienta.Dinero<BR>Herramienta.ChequeenLote<BR>Herramienta.Compras<BR>Herramienta.DatosPlaneador<BR>Herramienta.AdmonCreditos<BR>Herramienta.Nomina<BR>Herramienta.RH<BR>Herramienta.Exportar<BR>Herramienta.Importar<BR>Herramienta.GenerarArchivo<BR>Herramienta.GenerarPolizas<BR>Herramienta.Sincro<BR>Herramienta.CerrarDia<BR>Herramienta.CerrarMes<BR>Herramienta.TraspasarAcumulados<BR>Herramienta.TorreControl<BR>Herramienta.Actividades<BR>Herramienta.EnviarCorreo<BR>Herramienta.Ford<BR>Herramienta.Chrysler<BR>Herramienta.Otros<BR>Herramienta.AltaClienteMavi<BR>Herramienta.CobranzaTelefonicaMavi<CONTINUA>
+ListaAcciones003=<CONTINUA><BR>Cubo.FlujoInv<BR>Cubo.SerieLote<BR>Cubo.ActivoFijo<BR>Cubo.Compras<BR>Cubo.Gastos<BR>Cubo.Nomina<BR>Cubo.Retardos<BR>Cubo.Personal<BR>Cubo.Comisiones<BR>Cubo.Contabilidad<BR>Cubo.IVA<BR>Cubo.MovimientosProyectos<BR>Cubo.Clientes<BR>Cubo.Proveedores<BR>Cubo.Agentes<BR>Cubo.Art<BR>Cubo.Almacenes<BR>Cubo.VIN<BR>Cubo.ConceptosGastos<BR>Cubo.Proyectos<BR>Cubo.Cambios<BR>Rep.Ventas<BR>Rep.Campanas<BR>Rep.Servicio<BR>Rep.PC<BR>Rep.Embarque<BR>Rep.Dinero<BR>ChequeenLote<BR>Rep.Cxc<BR>Rep.Cxp<BR>Rep.Comisiones<BR>Rep.Gastos<BR>Rep.Inventarios<BR>Rep.ActivoFijo<BR>Rep.Compras<BR>Rep.Produccion<BR>Rep.Nomina<BR>Rep.Asiste<BR>Rep.RH<BR>Rep.Contabilidad<BR>Rep.Fiscales<BR>Rep.Gerenciales<BR>Rep.Auditoria<BR>Rep.Art<BR>Rep.Otros<BR>Cta.Clientes<BR>Cta.Proveedores<BR>Cta.Agentes<BR>Cta.Personal<BR>Cta.Recursos<BR>Cta.Prospectos<BR>Cta.Socio<BR>Cta.OutlookNombre<CONTINUA>
+ListaAcciones004=<CONTINUA><BR>Cta.Articulos<BR>Cta.Productos<BR>Cta.Espacio<BR>Cta.ActivoF<BR>Cta.Almacenes<BR>Cta.Rep<BR>Cta.Monedero<BR>Cta.VIN<BR>Cta.Dinero<BR>Cta.ConceptoGastos<BR>Cta.CentroCostos<BR>Cta.Proy<BR>Cta.ProdEstacion<BR>Cta.ProdCentro<BR>Cta.ProdRuta<BR>Cta.LineasCredito<BR>Cta.TipoTasa<BR>Cta.TipoAmortizacion<BR>Cta.Contables<BR>Cta.Otros<BR>Herramienta.MenuVista<BR>Herramienta.TipoCambioR<BR>Herramienta.Ticker<BR>Herramienta.Hasp<BR>Herramienta.Tareas<BR>Herramienta.Agenda<BR>Herramienta.Paginas<BR>Herramienta.Calculadora<BR>Herramienta.Calendario<BR>Herramienta.ScoreBoard<BR>Herramienta.CabinaMando<BR>Herramienta.TipoCambio<BR>Herramienta.Recurrentes<BR>Herramienta.EstatusImpresiones<BR>Herramienta.Monitor<BR>Herramienta.RespaldarDatos<BR>Herramienta.MovMover<BR>Herramienta.BusinessPlan<BR>Herramienta.Venta<CONTINUA>
+ListaAcciones005=<CONTINUA><BR>Herramienta.VentaMostrador<BR>Herramienta.Autotransportes<BR>Herramienta.Embarques<BR>Herramienta.Cxc<BR>Herramienta.Cxp<BR>Herramienta.Gastos<BR>Herramienta.Inv<BR>Herramienta.Prod<BR>Herramienta.Dinero<BR>Herramienta.ChequeenLote<BR>Herramienta.Compras<BR>Herramienta.DatosPlaneador<BR>Herramienta.AdmonCreditos<BR>Herramienta.Nomina<BR>Herramienta.RH<BR>Herramienta.Exportar<BR>Herramienta.Importar<BR>Herramienta.GenerarArchivo<BR>Herramienta.GenerarPolizas<BR>Herramienta.Sincro<BR>Herramienta.CerrarDia<BR>Herramienta.CerrarMes<BR>Herramienta.TraspasarAcumulados<BR>Herramienta.TorreControl<BR>Herramienta.Actividades<BR>Herramienta.EnviarCorreo<BR>Herramienta.Ford<BR>Herramienta.Chrysler<BR>Herramienta.Otros<BR>Herramienta.CobranzaTelefonicaMavi<CONTINUA>
+ListaAcciones006=<CONTINUA><BR>Herramienta.DM0213CatalogoVehiculosProveedores<BR>Herramienta.CobCampoMAVI<BR>Herramienta.EndosarEnLote<BR>Herramienta.EnvioCtasIncMaviCob<BR>Herramienta.ctasenvidasmavicob<BR>Herramienta.CobranzaMenudeo<BR>Herramienta.MaximoAval<BR>HERRBUCRED<BR>Herramienta.CambiarProspecto<BR>Herramienta.InsertImporteLineaC<BR>Herramienta.ClaveSeguimiento<BR>Herramienta.MaviSupervisionMaestro<BR>Herramienta.MaviFchExigibles<BR>Herramienta.MaviGenerarRuta<BR>Herramienta.DigitalizacionCapturarCuentas<BR>Herramienta.DigitalizacionImpresionCaratulas<BR>Herramienta.Aurodialer<BR>Herramienta.DM0211GenerarPagoCheque<BR>Config.Empresas<BR>Config.Sucursales<BR>Config.Usuarios<BR>Config.General<BR>Config.MenuVista<BR>Config.Politicas<BR>Config.Planeacion<BR>Config.Consecutivos<BR>Config.Movimientos<BR>Config.Situaciones<BR>Config.Conceptos<BR>Config.Observaciones<BR>Config.Documentacion<BR>Config.Layout<BR>Config.Ventas<BR>Config.Servicio<BR>Config.PC<BR>Config.Ofertas<BR>Config.Atn<BR>Config.RSS<BR>Config.Campana<BR>Config.Proyectos<BR>Config.Embarque<BR>Config.Dinero<BR>Config.Capital<BR>Config.Cxc<BR>Config.Cxp<BR>Config.Gastos<BR>Config.Compras<BR>Config.Nomina<BR>Config.RH<BR>Config.Prod<BR>Config.WMS<BR>Config.Autotransportes<CONTINUA>
+ListaAcciones007=<CONTINUA><BR>Config.ARO<BR>Config.GeneradorReportes<BR>Config.GeneradorVistasEspeciales<BR>Config.GeneradoNomina<BR>Config.ConexionContable<BR>Config.ContabilidadAutomatica<BR>Config.ComiSuperv<BR>Config.EmbarqueVehic<CONTINUA>
+ListaAcciones008=<CONTINUA><BR>Config.BaseDatos<BR>Config.FactorCosteoFletesMAVI<BR>Config.FactorCosteoFletesMagisterio<BR>Config.ComisionesChoferesMAVI<BR>Config.ParametrizacionCFD<BR>Config.Otros<BR>Ayuda.Ayuda<BR>Ayuda.Acerca<BR>Mov.ServicasaServicredCredito<BR>Mov.ServicasaServicredSucursales<BR>Mov.ServicasaServicredCreditoMayoreo<BR>Config.Bonificacion<BR>Exp.MaviRefin<BR>Herramienta.Instituciones<BR>Herramienta.Contabilidad<BR>Herramienta.CxcCFD<BR>Herramienta.EliminarSaldosMenoresCxc<BR>Herramienta.EliminarSaldosMenoresCxp<BR>Herramientas.ProcesarEnLote<BR>Herramienta.EmbarcarEnLote<BR>Herramienta.PROPRE<BR>Herramienta.DM0101MasterG<BR>Herramienta.ComMay<BR>Herramienta.CosteoFleteMAVI<BR>DM0128MenuPubliPreSegAut<BR>Herramienta.DM0106Accesos<BR>DM0102ASIGPREESP<BR>Herramienta.CambiarUsuario<BR>Config.InstitucionFin<BR>Config.MenuCfgCxcCalifCtes<BR>Herramienta.DM0128publisegaut<CONTINUA>
+ListaAcciones009=<CONTINUA><BR>Config.PreguntaCte<BR>EXPCobraCredInst<BR>EXPCobCredMen<BR>EXPComp<BR>EXPCont<BR>EXPCredit<BR>EXPCxp<BR>EXPEmbarq<BR>EXPGastos<BR>EXPInvent<BR>EXPTesoreria<BR>EXPVentas<BR>EXPActiFij<BR>EXPAgente<BR>EXPAlmacen<BR>EXPArticulo<BR>EXPClienGenr<BR>EXPClientInst<BR>EXPCoincidencias<BR>EXPCuentCont<BR>EXPCuentDine<BR>EXPEnvInfCobFideFon<BR>EXPHistCostFlete<BR>EXPPrelCobro<BR>EXPProve<BR>DM0103ComsExpMacroMavifrm<BR>EXPResultCaja<BR>REPMAVI<BR>Config.FactorSeguroFletesMAVI<BR>Herramienta.DM0155InformacionMavi<BR>Exp.BitaCalif<BR>EXPCitaSuperv<BR>Herramienta.DM0172ClienteExpressMDA<BR>Herramienta.BuroMAVI<BR>EXPBitacoraCte<BR>ExpDM0195Histcatalogoclientes<BR>ExpDM0194Exigibles<BR>Herramientas.BuroDigital<BR>EnvSupAncroid<BR>EXPHISTMODI<BR>cta.importador<BR>Herramienta.Analistas<BR>ExpDM0216VarPorcExi<BR>Herramienta.RM1074ListaArtCbFrm<BR>Herramienta.DM0173ValidaMonederoFrm<BR>Herramienta.DM0221Liberador<BR>EXPRM1094SimulaBonif<BR>Herramienta.AuditoriaCredito<BR>Herramienta.DM0226InvMov<BR>Herramienta.DM0227GemOC<BR>Herramienta.DM0228Rechazos<BR>Herramienta.DM0229CambioSeccionCteFrm<BR>EXPDM0232Fotos<BR>Herramienta.EnviaGastoCOMER<BR>Herramienta.PARAMETROSSCORING<CONTINUA>
+ListaAcciones010=<CONTINUA><BR>Herramienta.DM0239DistrAuto<BR>Herramienta.DM0239Jerarquia<BR>Herramienta.DM0239MaxArtxSuc<BR>EXPDM0238ConvenInstVigen<BR>EXPDM0238ConvenInstVigenEstatus<BR>Cta.DM0237EstructuraAgte<BR>Herramienta.RM1114CartaConf<BR>Herramienta.Balanza<BR>Herramienta.GenCatalogo<BR>Herramienta.DM0235ControlDepDisp<BR>Herramienta.DM0235Correos<BR>Herramienta.DM0243<BR>Herramienta.DM0243Cred<BR>Herramienta.MensajeAval<BR>Herramienta.DM0246TipoSucursal<BR>Herramienta.DM0246TipoAlm<BR>Herramienta.DM0246ImportarExcel<BR>EXPDM0240CtaQuebranto<BR>Herramienta.DM0173CampañasMonedero<BR>Herramienta.DM0247HerrCalzado<BR>Herramientas.RM1120Factor<BR>Herramientas.RM1120Nivel<BR>Herramientas.RM1120Bitacora<BR>Herramienta.DM0248ArtLote<BR>Herramienta.PagoGestiones<BR>Herramienta.DM0256ConfigPagares<BR>Config.MenuCfgCredINTL<BR>Herramientas.DM0257ListaNegra<BR>Herramienta.DM0263DisSucGeoFrm<BR>Herramienta.DM0263EmpleadoZonaFrm<BR>Herramienta.INTL604CargaBuro<BR>Herramienta.DM0264RedDimas<BR>Herramienta.DM0264CuotaDimas<CONTINUA>
+ListaAcciones011=<CONTINUA><BR>Herramienta.DM0266CalendarioDistribucion<BR>Herramienta.ACD00017VisorMavi<BR>Config.posiblesDimas<BR>Herramienta.SIP<BR>Herramienta.DM0267BitacoraDima<BR>Herramienta.DM0269OrdenadorRutaReparto<BR>Herramienta.DM0276<BR>Herramienta.RM0847Cat<BR>Herramienta.DM0278CancelacionSegurosVida<BR>Config.DM0287<BR>Herramienta.DM0287Autorizar<BR>Config.ConfigMonederoFamilia<BR>Herramienta.DM0292PorcentajeArticulosQ<BR>Herramienta.RM1138ValidarTelefono<BR>Herramienta.ACD00021AsigJefSup<BR>Herramienta.DM0300ImpresionGestionesxCliente<BR>Herramienta.SELP<BR>Config.DM0299Tipodecliente<BR>Cta.Rentabilidad<BR>Herramienta.RM1146Configuracion<BR>Herramienta.EtiquetaAdjudicaciones<BR>Herramienta.ACW00042FichaTecnica<BR>Herramienta.ACD00023CancelaSeguros<BR>Herramienta.DM0304FamiliaRelacionada<BR>Config.PanelInformacionConfig<BR>Herramienta.PanelInformacion<BR>Herramienta.DM0285familialineaesp<BR>Herramienta.DM0307CitasProveedores<BR>Herramienta.ACW00022AuditoriaCobranza<CONTINUA>
+ListaAcciones012=<CONTINUA><BR>Herramienta.Porcsobreprecio<BR>Herramienta.CampañasSms<BR>Herramienta.Logmetodopago<BR>EXPRepep<BR>Herramienta.ACW00050MenuCFDI<BR>Herramienta.DM0321SegurosVida<BR>Herramienta.RM1168ComprasAuditoriaDIMASTiendaVirtualFRM<BR>Config.ConfiguracionReanalisis<BR>Herramienta.DM0264PorcentajeDima<BR>Herramienta.AsignacionSupervisores<BR>Herramienta.DM0285EComTemporadasFrm<BR>Herramienta.ReporteVentaComparativo<BR>Herramienta.CyberPuerta<BR>Herramienta.ConfiguracionPuntoVenta<BR>Mov.PuntoVentaMavi<BR>Herramienta.PromocionesPuntoVenta<BR>Herramienta.DM0329DepuracionSeguros<BR>Herramienta.DM0285CompraseCommerce<BR>Herramienta.ACD00029LimpiezaCorreo<BR>Herramienta.DIMACredilana<BR>Herramienta.DIMACredilanaAtencionC<BR>Herramienta.EstadoCuentaDima<BR>Herramienta.AgrupadorDeAlmacenes<BR>Herramienta.KPIEcommerce<BR>Herramienta.RM0906ConfigDivisionYParam<BR>Herramienta.VentasExistencias<BR>Herramienta.ValidacionTel<BR>Config.PresumiblesBF<BR>Herramienta.HistoricoActualizacion<BR><CONTINUA>
+ListaAcciones013=<CONTINUA><BR>Herramienta.AlertaFajillas<BR>Herramienta.AjusteApoyoCobranza<BR>Herramienta.DM0216CatalogoDatalogic<BR>Herramienta.ConfiguracionTelemarketing<BR>Herramienta.DM0345FamiliasLineasValidasAppDima<BR>Herramienta.DM0345FamiliaImagenAppDima<BR>Herramienta.Forecast<BR>Config.MonederoXBienvenida<BR>Herramienta.CotizadorCOMSImportacion<BR>Herramienta.DM0336VTASGestionarPedidosDeMagentoPrincipalFrm<BR>Herramienta.DashboardAfiliacionDima<BR>EXPCobrosGestores<BR>Herramienta.EstadoCuentaBancomer<BR>Herramienta.Macros<BR>Herramienta.ReduccionAsignacionDistribucion<BR>EXPPrelCobroNet<BR>Herramienta.TarjetaDepartamental<BR>Herramienta.TarjetaPorSucursal<BR>Herramienta.TableroDeControlDima<BR>Herramienta.ACD0041CoordinadoresDima<BR>Config.DM0264Excepciones<BR>Config.DisminucionCreditoBF<BR>Herramienta.MetodosPagoMagento<BR>Herramienta.ProvisionDeFlujos<BR>Herramienta.DepRefBancomer<BR>Herramienta.DropshippingMinoristas<BR>Config.EvtVentaCruzada<BR><CONTINUA>
+ListaAcciones.Cambios=Insertar<TAB>Config.CFDFlex<TAB>227<BR>Insertar<TAB>Config.eDoc<TAB>237<BR>Insertar<TAB>Herramienta.CFDFlex<TAB>212
+
+MenuPrincipal=&Procesos<BR>&Historico<BR>&Exploradores<BR>E&xploradores Mavi<BR>Reportes Mavi<BR>C&ubos<BR>&Reportes<BR>&Cuentas<BR>&Web<BR>&Herramientas<BR>C&onfigurar<BR>Ay&uda
+
+[MenuPrincipal.dlg/Acciones.Herramienta.CosteoFleteMAVI]
+Nombre=Herramienta.CosteoFleteMAVI
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Costeo Flete
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=ProcesarVentaMAVI
+Activo=S
+Visible=S
+
+;*** Explorador de Refinanciamientos. Isaura Muñiz, 13-Nov-2009
+; **** Modificacion de Menu para accion Exp.MaviRefin, 27/DIC/2011 Victor Enrique Murillo Torres, para desarrollo DM0155 SEGMENTACION DE MENUS dentro del paquete DM0155_27122011. JR 27-Dic-2011. ****
+; **** Modificacion de Menu para accion Exp.MaviRefin regresando valor anterior (&Exploradores), 28/DIC/2011 Victor Enrique Murillo Torres, para desarrollo DM0155 SEGMENTACION DE MENUS dentro del paquete DM0155_28122011. JR 28-Dic-2011. ****
+[MenuPrincipal.dlg/Acciones.Exp.MaviRefin]
+Nombre=Exp.MaviRefin
+Boton=0
+Menu=&Exploradores
+NombreDesplegar=Explorador Refinanciamiento
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RM0907MaviSimRefinanciamientofrm
+Activo=S
+Visible=S
+;Menu=E&xploradores Mavi
+
+
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ClaveSeguimiento]
+Nombre=Herramienta.ClaveSeguimiento
+Boton=0
+Menu=&Herramientas
+EsDefault=S
+NombreDesplegar=Clave Seguimiento
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=MAVIClaveSeguimiento
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.TipoCambioR]
+Nombre=Herramienta.TipoCambioR
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Leer Tipo Cambio
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=MonTipoCambioR
+Activo=S
+Visible=S
+
+;***Integracion del paquete DM0134_21062011 BVF 21062011
+[MenuPrincipal.dlg/Acciones.Herramienta.CambiarProspecto]
+Nombre=Herramienta.CambiarProspecto
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Cambiar Prospecto a Cliente
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=ProspectoAClienteMAVI
+Activo=S
+Visible=S
+EspacioPrevio=S
+
+
+[MenuPrincipal.dlg/Acciones.Mov.MaviSupervision]
+Nombre=Mov.MaviSupervision
+Boton=0
+NombreDesplegar=Supervisión
+EnMenu=S
+Menu=&Procesos
+EnBarraAcciones=
+TipoAccion=Formas
+ClaveAccion=MaviSupervision
+Activo=S
+Visible=S
+EspacioPrevio=S
+
+[MenuPrincipal.dlg/Acciones.Mov.MaviRuta]
+Nombre=MaviRuta
+Boton=0
+NombreDesplegar=Rutas
+EnMenu=S
+Menu=&Procesos
+EnBarraAcciones=
+TipoAccion=Formas
+ClaveAccion=MaviRuta
+Activo=S
+Visible=S
+
+;**** Nueva accion ARC 02-Mar-09 ****
+[MenuPrincipal.dlg/Acciones.Mov.ComisionesChoferesMAVI]
+Nombre=ComisionesChoferesMAVI
+Boton=0
+NombreDesplegar=Comisiones Choferes
+EnMenu=S
+Menu=&Procesos
+EnBarraAcciones=
+TipoAccion=Formas
+ClaveAccion=ComisionesChoferes
+Activo=S
+Visible=S
+EspacioPrevio=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.MaviGenerarRuta]
+Nombre=MaviGenerarRuta
+Boton=0
+NombreDesplegar=&Generar Rutas
+EnMenu=S
+Menu=&Herramientas
+EnBarraAcciones=
+TipoAccion=Expresion
+Activo=S
+Visible=S
+EspacioPrevio=
+Expresion=Si(Confirmacion(<T>¿Desea Generar las Rutas de Supervisión?<T>, BotonAceptar, BotonCancelar) = BotonAceptar , ProcesarSQL(<T>spMaviRutaGenerar :tEmpresa, :tUsuario, :nSuc<T>, Empresa, Usuario, Sucursal))
+
+[MenuPrincipal.dlg/Acciones.Herramienta.MaviSupervisionMaestro]
+Nombre=Herramienta.MaviSupervisionMaestro
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Maestros de Supervisión
+EnMenu=S
+TipoAccion=Reportes Pantalla
+ClaveAccion=MaviSupervisionMaestro
+Activo=S
+Visible=S
+
+
+;***** Se cambio el nombre a desplegar de "Comisiones y Destajos" a "Resultados Cajas"
+[MenuPrincipal.dlg/Acciones.Mov.Comisiones]
+NombreDesplegar=Resultados Caja
+
+
+;***** Se cambio el nombre a desplegar de "Comisiones y Destajos" a "Resultados Cajas"
+[MenuPrincipal.dlg/Acciones.Exp.Comisiones]
+NombreDesplegar=Resultados Caja
+
+
+
+;***** Se cambio el nombre a desplegar de "Comisiones y Destajos" a "Resultados Cajas"
+[MenuPrincipal.dlg/Acciones.Rep.Comisiones]
+NombreDesplegar=Resultados Caja
+
+
+[MenuPrincipal.dlg/Acciones.Rep.Campanas]
+Nombre=Rep.Campanas
+Boton=0
+Menu=&Reportes
+NombreDesplegar=Campañas
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=Camapana
+Activo=S
+Visible=S
+
+;***Integracion del paquete DM0134_21062011 BVF 21062011,se agrego espacio previo para dividir seccion VICTOR DE LOS SANTOS LOPEZ 20/06/2011
+;***** 26-Ago-08(Arly): Nueva accion agregada*****
+[MenuPrincipal.dlg/Acciones.Herramienta.Propre]
+Nombre=Herramienta.Propre
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&Propre
+EnMenu=S
+TipoAccion=dialogos
+ClaveAccion=MenuHerramientaPropre
+Activo=S
+Visible=S
+EspacioPrevio=S
+
+
+;***** 26-Dic-08(Arly): Nueva accion agregada*****
+[MenuPrincipal.dlg/Acciones.Config.FactorCosteoFletesMAVI]
+Nombre=Config.FactorCosteoFletesMAVI
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=% Autorización Costeo de Fletes
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=FactorCosteoFleteMAVI
+Activo=S
+Visible=S
+
+;****Nueva accion agregada ARC 02-Mar-09 ****
+[MenuPrincipal.dlg/Acciones.Config.ComisionesChoferesMAVI]
+Nombre=Config.ComisionesChoferesMAVI
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Comisiones Choferes
+EnMenu=S
+TipoAccion=Expresion
+Expresion=Si(Usuario.ModifComisnsChoferesMAVI, Forma(<T>ProductividadEMBMAVI<T>), Forma(<T>ProductividadEMBMAVI<T>))
+Activo=S
+Visible=S
+
+
+;****Nueva accion agregada ARC 19-Mar-09 ACCION realizada por MAVI****
+[MenuPrincipal.dlg/Acciones.Mov.Pocket]
+Nombre=Mov.Pocket
+Boton=0
+NombreDesplegar=Escaneo Embarques
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=MaviAlmEmbarqueFisicoSelOpcFrm
+Activo=S
+Visible=S
+Menu=&Procesos
+
+
+;*** ARC 15-May-09 Registro de Huella *****
+[MenuPrincipal.dlg/Acciones.Mov.CteHuella]
+Nombre=Mov.CteHuella
+Boton=0
+NombreDesplegar=Reg Huella Cliente
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RegistroHuellaCteMavi
+Activo=S
+Visible=S
+Menu=&Procesos
+EspacioPrevio=S
+
+
+;*** 25-May-09 ARC Nueva accion Cobranza Telefonica ***
+[MenuPrincipal.dlg/Acciones.Herramienta.CobranzaTelefonicaMavi]
+Nombre=Herramienta.CobranzaTelefonicaMavi
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Cobranza Telefonica
+EnMenu=S
+EspacioPrevio=S
+TipoAccion=Dialogos
+ClaveAccion=MenuHerramientasCXCCT
+Activo=S
+Visible=S
+
+
+;*** 28-May-09 ARC Nueva accion Gestion Telefonica - Desarrollo de CObranza Telefonica ***
+[MenuPrincipal.dlg/Acciones.Mov.GestionTelefonica]
+Nombre=Mov.GestionTelefonica
+Boton=0
+Menu=&Procesos
+NombreDesplegar=Gestion Telefonica
+EnMenu=S
+EspacioPrevio=S
+TipoAccion=Formas
+ClaveAccion=MaviCobTelA
+Activo=S
+Visible=S
+
+
+;*** 28-May-09 ARC Nueva accion MaviEmbarqueCasa - Desarrollo de MAVI ***
+[MenuPrincipal.dlg/Acciones.Mov.MaviEmbarqueCasa]
+Nombre=Mov.MaviEmbarqueCasa
+Boton=0
+Menu=&Procesos
+NombreDesplegar=Embarques Casa
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=MaviEmbarqueCasasForaneasFRM
+Activo=S
+Visible=S
+
+;**** Desarrollo SERVICASA CREDITO  MOISES MAVI 15/JUNIO/2009 Integrado por MP
+[MenuPrincipal.dlg/Acciones.Mov.ServicasaServicredCredito]
+Nombre=ServicasaServicredCredito
+Boton=0
+NombreDesplegar=Servicasa Servicred Crédito
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=MaviServicasaCredFrm
+Antes=S
+AntesExpresiones=Asigna(Info.UEN,SQL('Select UEN from usuario where usuario=:tval1',usuario))<BR>Asigna(Info.UENMAVI,SQL('Select Nombre from UEN Where Uen=:nval1',Info.UEN))
+Activo=S
+VisibleCondicion=Si(SQL(<T>SELECT COUNT(Nombre) FROM TablaStD WHERE TablaSt = :tTabla AND Nombre = :tSuc<T>,<T>SUCURSALES SIN SERVICASA<T>,Sucursal) > 0, Falso, Verdadero)
+Menu=&Procesos
+
+;**** Desarrollo SERVICASA CREDITO  MOISES MAVI 15/JUNIO/2009 Integrado por MP
+[MenuPrincipal.dlg/Acciones.Mov.ServicasaServicredSucursales]
+Nombre=ServicasaServicredSucursales
+Boton=0
+NombreDesplegar=Servicasa Servicred Ventas
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=MaviServicasaVtasPisoFrm
+Antes=S
+AntesExpresiones=Asigna(Info.UEN,SQL('Select UEN from usuario where usuario=:tval1',usuario))<BR>Asigna(Info.UENMAVI,SQL('Select Nombre from UEN Where Uen=:nval1',Info.UEN))
+Activo=S
+VisibleCondicion=Si(SQL(<T>SELECT COUNT(Nombre) FROM TablaStD WHERE TablaSt = :tTabla AND Nombre = :tSuc<T>,<T>SUCURSALES SIN SERVICASA<T>,Sucursal) > 0, Falso, Verdadero)
+Menu=&Procesos
+
+;**** Desarrollo SERVICASA CREDITO  MOISES MAVI 15/JUNIO/2009 Integrado por MP
+[MenuPrincipal.dlg/Acciones.Mov.ServicasaServicredCreditoMayoreo]
+Nombre=ServicasaServicredCredito
+Boton=0
+NombreDesplegar=Servicasa Crédito Mayoreo
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=MaviServicasaCrMayFrm
+Antes=S
+AntesExpresiones=Asigna(Info.UEN,SQL('Select UEN from usuario where usuario=:tval1',usuario))<BR>Asigna(Info.UENMAVI,SQL('Select Nombre from UEN Where Uen=:nval1',Info.UEN))
+Activo=S
+VisibleCondicion=Si(SQL(<T>SELECT COUNT(Nombre) FROM TablaStD WHERE TablaSt = :tTabla AND Nombre = :tSuc<T>,<T>SUCURSALES SIN SERVICASA<T>,Sucursal) > 0, Falso, Verdadero)
+Menu=&Procesos
+
+[MenuPrincipal.dlg/Acciones.Config.Bonificacion]
+Nombre=Config.Bonificacion
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Politicas de Bonificación
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=BonificacionesMavi
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Config.FactorCosteoFletesMagisterio]
+Nombre=Config.FactorCosteoFletesMagisterio
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=% Autorización Costeo de Fletes Magisterio
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=FactorCosteoFleteMagisterio
+Activo=S
+Visible=S
+
+;Ultima modificacion: 14-Ene-2011
+;Responsable: Vicky Chew  
+;Modifico: DM100CREDIRelacExpEntregArGralVistaCtesFrm.
+; ***** Modificacion de nombre a desplegar por LUIS ALBERTO FERNANDEZ GARCIA. 20-Jun-2011. Desarrollo DM100 Explorador de Documentos Entragados a Digitalizacion. Paquete DM0100_07072011. JR 07-Jul-2011. *****
+[MenuPrincipal.dlg/Acciones.Herramienta.DigitalizacionImpresionCaratulas]
+Nombre=Herramienta.DigitalizacionImpresionCaratulas
+Boton=0
+;NombreDesplegar=Impresion Carátulas
+NombreDesplegar=Relación de Documentos a Digitalizar
+EnMenu=S
+TipoAccion=Formas
+;ClaveAccion=DM100CREDIRelacExpEntregArGralVistaCtesFrm
+ClaveAccion=DM0100CREDIRelacExpEntregArGralVistaCtesFrm
+Activo=S
+Visible=S
+Menu=&Herramientas
+
+;***Integracion del paquete DM0134_21062011 BVF 21062011
+;se agrego espacio previo para dividir la seccion de cobranza telefonica victor 03/03/2011
+; Nueva Accion agregada para el desarrollo DM100 MGR 17032010
+; ***** Modificacion de clave de accion por LUIS ALBERTO FERNANDEZ GARCIA. 20-Jun-2011. Desarrollo DM100 Explorador de Documentos Entragados a Digitalizacion. Paquete DM0100_07072011. JR 07-Jul-2011. *****
+[MenuPrincipal.dlg/Acciones.Herramienta.DigitalizacionCapturarCuentas]
+Nombre=Herramienta.DigitalizacionCapturarCuentas
+Boton=0
+NombreDesplegar=Cuentas a entregar a Digitalizacion
+EnMenu=S
+TipoAccion=Formas
+;ClaveAccion=DM100CREDIRelacExpEntregArGralVistaCreditoFrm
+ClaveAccion=DM0100CREDIRelacExpEntregArGralVistaCreditoFrm
+Activo=S
+Visible=S
+Menu=&Herramientas
+;EspacioPrevio=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.CobCampoMAVI]
+Nombre=Herramienta.CobCampoMAVI
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Cuotas Cobranza Campo
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=MenuCobranzaCampoMAVI
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0101MasterG]
+Nombre=Herramienta.DM0101MasterG
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Master de Gastos
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0101GASMasterGastoFrm
+Activo=S
+Visible=S
+
+
+; ***** Modificion de tipo de accion para desarrollo DM0155 SEGMENTACION DE MENUS dentro del paquete DM0155_14102011. JR 14-Oct-2011. *****
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0106Accesos]
+Nombre=Herramienta.DM0106Accesos
+Boton=0
+NombreDesplegar=Actualizar Accesos Especificos
+EnMenu=S
+;TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+;Expresion=asigna(info.abc, SQL( <T>exec dbo.SP_MAVIACTUALIZANIVELACCESO<T>))<BR>si (info.abc <> <T>Ok<T>) entonces<BR>informacion(<T>Error: <T>&info.abc)<BR>sino<BR>informacion(<T>Proceso terminado Correctamente!<T>)<BR>fin
+TipoAccion=Formas
+ClaveAccion=DM0153MaestraFRM
+ 
+
+
+; **** integracion de nuevas acciones para el desarrollo DM0121 MODIFICACIÓN AL DLG MENÚ PRINCIPAL del paquete DM0121_05032011. JR 07-Marzo-2011 ****
+
+;SE AGREGO ESTA ACCION A ESTE  NIVEL PARA PODER ASIGNARLO A CIERTOS PERFILES VICTOR DE LOS SANTOS 24022011
+[MenuPrincipal.dlg/Acciones.Herramienta.Instituciones]
+Nombre=Herramienta.Instituciones
+Boton=0
+NombreDesplegar=Cobranza Instituciones
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=MenuHerrInstitucionesMAVI
+Activo=S
+Visible=S
+Menu=&Herramientas
+
+
+;SE AGREGO ESTA ACCION A ESTE  NIVEL PARA PODER ASIGNARLO A CIERTOS PERFILES VICTOR DE LOS SANTOS 24022011
+[MenuPrincipal.dlg/Acciones.Herramienta.EndosarEnLote]    
+Nombre=Herramienta.EndosarEnLote
+Boton=0
+NombreDesplegar=Endosar En Lote
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=CxcEndosarEnLoteMAVI
+Activo=S
+Visible=S
+Menu=&Herramientas
+;EspacioPrevio=S
+
+
+;SE AGREGO ESTA ACCION A ESTE  NIVEL PARA PODER ASIGNARLO A CIERTOS PERFILES VICTOR DE LOS SANTOS 24022011
+[MenuPrincipal.dlg/Acciones.Herramienta.CobranzaMenudeo]
+Nombre=Herramienta.CobranzaMenudeo
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Cobranza Menudeo
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=MenuHerrCobranzaMenudeoMAVI
+Activo=S
+Visible=S
+
+
+;SE AGREGO ESTA ACCION A ESTE  NIVEL PARA PODER ASIGNARLO A CIERTOS PERFILES VICTOR DE LOS SANTOS 24022011
+; **** Modificacion de EspacioPrevio (comentado) por Jesus Del Toro Andrade para el desarrollo DM0121 MODIFICACIÓN AL DLG MENÚ PRINCIPAL dentro del paquete DM0121_15112011. JR 16-Nov-2011 ****
+[MenuPrincipal.dlg/Acciones.Herramienta.CxcCFD]
+Nombre=Herramienta.CxcCFD
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Comprobantes Digitales
+EnMenu=S
+;EspacioPrevio=S
+TipoAccion=Formas
+ClaveAccion=CtasCobrarCFD
+Activo=S
+ConCondicion=S
+EjecucionCondicion=Empresa.CFD
+VisibleCondicion=Empresa.CFD
+
+
+;se le activo espacio previo para dividir la seccion y que aparescan al final del menu victor 03/03/2011
+;SE AGREGO ESTA ACCION A ESTE  NIVEL PARA PODER ASIGNARLO A CIERTOS PERFILES VICTOR DE LOS SANTOS 24022011
+[MenuPrincipal.dlg/Acciones.Config.MenuCfgCxcCalifCtes]
+Nombre=Config.MenuCfgCxcCalifCtes
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Calificacion de Cuentas
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=MenuCfgCxcCalifCtes
+Activo=S
+Visible=S
+EspacioPrevio=S
+
+
+;SE AGREGO ESTA ACCION A ESTE  NIVEL PARA PODER ASIGNARLO A CIERTOS PERFILES VICTOR DE LOS SANTOS 24022011
+[MenuPrincipal.dlg/Acciones.Config.PreguntaCte]
+Nombre=Config.PreguntaCte
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Configurar Preguntas Clientes
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=PreguntaCte
+Activo=S
+Visible=S
+
+
+;SE AGREGO ESTA ACCION A ESTE  NIVEL PARA PODER ASIGNARLO A CIERTOS PERFILES VICTOR DE LOS SANTOS 24022011
+[MenuPrincipal.dlg/Acciones.Config.InstitucionFin]
+Nombre=Config.InstitucionFin
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Instituciones Financieras
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=InstitucionFin
+Activo=S
+Visible=S
+
+
+
+;SE AGREGO ESTA ACCION A ESTE  NIVEL PARA PODER ASIGNARLO A CIERTOS PERFILES VICTOR DE LOS SANTOS 26022011
+; **** Integracion de EspacioPrevio por Jesus Del Toro Andrade para el desarrollo DM0121 MODIFICACIÓN AL DLG MENÚ PRINCIPAL dentro del paquete DM0121_15112011. JR 16-Nov-2011. ****
+[MenuPrincipal.dlg/Acciones.Herramienta.EliminarSaldosMenoresCxc]
+Nombre=Herramienta.EliminarSaldosMenoresCxc
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&Eliminar Saldos Menores CXC
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=CxcEliminarSaldosMenores
+Activo=S
+Visible=S
+EspacioPrevio=S
+
+
+
+;SE AGREGO ESTA ACCION A ESTE  NIVEL PARA PODER ASIGNARLO A CIERTOS PERFILES VICTOR DE LOS SANTOS 26022011
+[MenuPrincipal.dlg/Acciones.Herramienta.EliminarSaldosMenoresCxp]
+Nombre=Herramienta.EliminarSaldosMenoresCxp
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&Eliminar Saldos Menores CXP
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=CxpEliminarSaldosMenores
+Activo=S
+Visible=S
+
+; ****  Termina integracion de nuevas acciones para el desarrollo DM0121 MODIFICACIÓN AL DLG MENÚ PRINCIPAL del paquete DM0121_05032011. JR 07-Marzo-2011 ****
+
+
+; **** integracion de accion del paquete COMIS_FORANEOS_MAYOREO_07032011. JR 07-Marzo-2011.
+;AGR 20101201 SE AGREGA NUEVA ACCION PARA COMISIONES FORANEAS MAYOREO
+[MenuPrincipal.dlg/Acciones.Herramienta.ComMay]
+Nombre=Herramienta.ComMay
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&Comisiónes Foraneas Mayoreo
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=MenuCuotasForaneosMayoreo
+Activo=S
+Visible=S
+
+;***Integracion del paquete DM0134_21062011 BVF 21062011
+;*** Se integro por cambio en acomodo de las acciones (ProcesarEnLote,ImprimirCFD,DM0128publisegaut) BVF 10052011
+;***Agregado de Acciones JAVT 21/04/2011
+[MenuPrincipal.dlg/Acciones.Herramientas.ProcesarEnLote]
+Nombre=Herramientas.ProcesarEnLote
+Boton=0
+NombreDesplegar=Procesar &En Lote
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=ProcesarVenta
+Activo=S
+Visible=S
+Menu=&Herramientas
+EspacioPrevio=S
+
+;**** Se elimina accion ImprimirCFD, dentro del paquete DM0116_05092012. JR 05-Sep-2012. ****
+;[MenuPrincipal.dlg/Acciones.Herramientas.ImprimirCFD]
+;Nombre=Herramientas.ImprimirCFD
+;Boton=0
+;Menu=&Herramientas
+;NombreDesplegar=Imprimir &CFD
+;EnMenu=S
+;TipoAccion=Formas
+;ClaveAccion=VentaCFDI
+;Activo=S
+;Visible=S
+
+;***Integracion del paquete DM0134_21062011 BVF 21062011
+;***Modificado JAVT 21/04/2011 Se le agrego un espacio previo
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0128publisegaut]
+Nombre=Herramienta.DM0128publisegaut
+Boton=0
+NombreDesplegar=Publicar precios seguros auto
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=DM0128MenuPubliPreSegAut
+Activo=S
+Visible=S
+EspacioPrevio=N
+Menu=&Herramientas
+
+;*** Termina integracion (ProcesarEnLote,ImprimirCFD,DM0128publisegaut) BVF 10052011
+
+
+
+; ***** Intregracion nueva accion para desarrollo MaviCob. JR 08-Jun-2011. *****
+[MenuPrincipal.dlg/Acciones.Herramienta.EnvioCtasIncMaviCob]
+Nombre=Herramienta.EnvioCtasIncMaviCob
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Envio de Cuentas a MaviCob
+EnMenu=S
+TipoAccion=Reportes Pantalla
+ClaveAccion=EnvioCtasMaviCob
+Visible=S
+Activo=S
+
+;***Integracion del paquete DM0134_21062011 BVF 21062011
+; SE AGREGO NUEVA ACCION EMBARCAR EN LOTE VICTOR DE LOS SANTOS LOPEZ 18/06/2011
+[MenuPrincipal.dlg/Acciones.Herramienta.EmbarcarEnLote]
+Nombre=Herramienta.EmbarcarEnLote
+Boton=0
+NombreDesplegar=Embarcar En Lote
+EnMenu=S
+TipoAccion=Formas
+Activo=S
+Visible=S
+Menu=&Herramientas
+;EspacioPrevio=S
+ClaveAccion=DM0134MaviVentaEmbEnLoteFrm
+
+
+; **** Integracion de accion Herramienta.Aurodialer JAVT 21/04/2011 para desarrollo DM0130 Enlace Aurodialer del paquete DM0130_16082011. JR 16-Ago-2011 ****
+[MenuPrincipal.dlg/Acciones.Herramienta.Aurodialer]
+Nombre=Herramienta.Aurodialer
+Boton=0
+Menu=&Herramientas
+EsDefault=S
+NombreDesplegar=Aurodialer
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0130EnlaceAurodialerFrm
+Activo=S
+Visible=S
+
+
+; ***** Integracion de acciones de exploradores para mostrar nuevo menu para desarrollo DM0155 SEGMENTACION DE MENUS dentro del paquete DM0155_14102011. JR 14-Oct-2011. *****
+[MenuPrincipal.dlg/Acciones.EXPCobraCredInst]
+Nombre=EXPCobraCredInst
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Cobranza Credito Instituciones
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=DM0155SubCobranzaCreditoInstituciones
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.EXPCobCredMen]
+Nombre=EXPCobCredMen
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Cobranza Credito Menudeo
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=DM0155SubCobranzaCreditoMenudeo
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.EXPComp]
+Nombre=EXPComp
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Compras
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=MenuExpCompras
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.EXPCont]
+Nombre=EXPCont
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Contabilidad
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=DM0155SubContabilidad
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.EXPCredit]
+Nombre=EXPCredit
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Credito
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=DM0155SubCredito
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.EXPCxp]
+Nombre=EXPCxp
+Boton=0
+NombreDesplegar=Cuentas por Pagar
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=DM0155SubCxp
+Activo=S
+Visible=S
+Menu=E&xploradores Mavi
+
+;[MenuPrincipal.dlg/Acciones.EXPEnvarq]
+;Nombre=EXPEnvarq
+;Boton=0
+;Menu=E&xploradoresMavi
+;NombreDesplegar=Embarques
+;EnMenu=S
+;TipoAccion=Dialogos
+;ClaveAccion=DM0155SubEmbarques
+;Activo=S
+;Visible=S
+
+[MenuPrincipal.dlg/Acciones.EXPGastos]
+Nombre=EXPGastos
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Gastos
+EnMenu=S
+TipoAccion=dialogos
+ClaveAccion=menuexpgastos
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.EXPEmbarq]
+Nombre=EXPEmbarq
+Boton=0
+NombreDesplegar=Embarques
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=DM0155SubEmbarques
+Activo=S
+Visible=S
+Menu=E&xploradores Mavi
+
+[MenuPrincipal.dlg/Acciones.EXPInvent]
+Nombre=EXPInvent
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Inventarios
+EnMenu=S
+TipoAccion=dialogos
+ClaveAccion=DM0155SubInventarios
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.EXPTesoreria]
+Nombre=EXPTesoreria
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Tesoreria
+EnMenu=S
+TipoAccion=dialogos
+ClaveAccion=menuexpdinero
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.EXPVentas]
+Nombre=EXPVentas
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Ventas
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=DM0155SubExpVentas
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.EXPActiFij]
+Nombre=EXPActiFij
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Activos Fijos
+EnMenu=S
+Activo=S
+Visible=S
+TipoAccion=Formas
+ClaveAccion=ExplorarActivoF
+
+[MenuPrincipal.dlg/Acciones.EXPAgente]
+Nombre=EXPAgente
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Agente
+EnMenu=S
+Activo=S
+Visible=S
+TipoAccion=Formas
+ClaveAccion=ExplorarAgente
+
+[MenuPrincipal.dlg/Acciones.EXPAlmacen]
+Nombre=EXPAlmacen
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Almacenes
+EnMenu=S
+Activo=S
+Visible=S
+TipoAccion=Formas
+ClaveAccion=ExplorarAlm
+
+[MenuPrincipal.dlg/Acciones.EXPArticulo]
+Nombre=EXPArticulo
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Articulo
+EnMenu=S
+Activo=S
+Visible=S
+TipoAccion=Formas
+ClaveAccion=ExplorarArt
+
+[MenuPrincipal.dlg/Acciones.EXPClienGenr]
+Nombre=EXPClienGenr
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Clientes Generales
+EnMenu=S
+Activo=S
+Visible=S
+TipoAccion=Formas
+ClaveAccion=ExplorarCte
+
+[MenuPrincipal.dlg/Acciones.EXPClientInst]
+Nombre=EXPClientInst
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Clientes Instituciones (RM0935)
+EnMenu=S
+Activo=S
+Visible=S
+TipoAccion=Formas
+ClaveAccion=RM0935CtesCatInstFrm
+
+; **** Modificacion en ClaveAccion y Expresion por el nuevo desarrollo DM0140 Coincidencias, Jesus Del Toro Andrade 29-03-2012, para desarrollo DM0140 Coincidencias dentro del paquete DM0140_29032012. JR 29-Mar-2012. ****
+[MenuPrincipal.dlg/Acciones.EXPCoincidencias]
+Nombre=EXPCoincidencias
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Coincidencias
+EnMenu=S
+Activo=S
+Visible=S
+TipoAccion=Expresion
+;ClaveAccion=EspecificarClienteMAVI
+;Expresion=Si<BR>  Forma(<T>EspecificarClienteMAVI<T>)<BR>Entonces<BR>  Si(SQL(<T>SELECT COUNT(Cliente) FROM Cte WHERE Cliente=:t<T>,Info.ClienteD)>0,Info.ClienteD,AbortarOperacion)<BR>  Forma(<T>CteRelacionMAVI<T>)<BR>Fin
+ClaveAccion=DM0140EspecificarClienteMAVI
+Expresion=Si<BR>  Forma(<T>DM0140EspecificarClienteMAVI<T>)<BR>Entonces<BR>  Si(SQL(<T>SELECT COUNT(Cliente) FROM Cte WHERE Cliente=:t<T>,Info.ClienteD)>0,Info.ClienteD,AbortarOperacion)<BR>Ejecutar(<T>PlugIns\KardexXCliente.exe <T>+Usuario+<T> <T>+EstacionTrabajo+<T> <T>+Info.ClienteD+<T> <T>+0)<BR>Fin
+
+[MenuPrincipal.dlg/Acciones.EXPCuentCont]
+Nombre=EXPCuentCont
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Cuentas Contables
+EnMenu=S
+Activo=S
+Visible=S
+TipoAccion=Formas
+ClaveAccion=ExplorarCta
+
+[MenuPrincipal.dlg/Acciones.EXPCuentDine]
+Nombre=EXPCuentDine
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Cuentas de Dinero
+EnMenu=S
+Activo=S
+Visible=S
+TipoAccion=Formas
+ClaveAccion=ExplorarCtaDinero
+
+;***Asignacion de variable conteo para la funcionalidad del boton***
+[MenuPrincipal.dlg/Acciones.EXPEnvInfCobFideFon]
+Nombre=EXPEnvInfCobFideFon
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Envio de Informacion a Cobro Fide y Fonacot (RM0956)
+EnMenu=S
+EnBarraAcciones=S
+TipoAccion=Formas
+ClaveAccion=RM0956CxcForEnvInfCobroFrm
+Activo=S
+Antes=S
+Visible=S
+AntesExpresiones=Asigna(Info.Conteo,1)
+
+
+[MenuPrincipal.dlg/Acciones.EXPHistCostFlete]
+Nombre=EXPHistCostFlete
+Boton=0
+NombreDesplegar=Historial de Costeo Fletes (RM0096)
+EnMenu=S
+Activo=S
+Visible=S
+Menu=E&xploradores Mavi
+TipoAccion=Formas
+ClaveAccion=MaviCostFletFRM
+
+
+[MenuPrincipal.dlg/Acciones.EXPPrelCobro]
+Nombre=EXPPrelCobro
+Boton=0
+NombreDesplegar=Preliminar de Cobro
+EnMenu=S
+Activo=S
+Visible=S
+Menu=E&xploradores Mavi
+TipoAccion=Expresion
+;ClaveAccion=RM0906PreliminarCobroFrm
+Expresion=Ejecutar(<T>PlugIns\PreliminarCobro.exe <T>+Comillas(usuario)+<T> <T>+Comillas(basedatos))
+
+[MenuPrincipal.dlg/Acciones.EXPProve]
+Nombre=EXPProve
+Boton=0
+NombreDesplegar=Proveedores
+EnMenu=S
+Activo=S
+Visible=S
+Menu=E&xploradores Mavi
+TipoAccion=Formas
+ClaveAccion=ExplorarProv
+
+[MenuPrincipal.dlg/Acciones.EXPResultCaja]
+Nombre=EXPResultCaja
+Boton=0
+NombreDesplegar=Resultados Caja
+EnMenu=S
+Activo=S
+Visible=S
+Menu=E&xploradores Mavi
+TipoAccion=Formas
+ClaveAccion=ExplorarAgent
+
+
+;*** 14/Oct/11 Victor Enrique Murillo Torres***
+;*** MEnu en donde se redireccionaran los RM***
+[MenuPrincipal.dlg/Acciones.REPMAVI]
+Nombre=REPMAVI
+Boton=0
+NombreDesplegar=Reportes Mavi
+EnMenu=S
+TipoAccion=Otros
+ClaveAccion=Reportes Especiales del Usuario
+Activo=S
+Visible=S
+Menu=Reportes Mavi
+
+; ***** Termina integracion de acciones de exploradores para mostrar nuevo menu para desarrollo DM0155 SEGMENTACION DE MENUS dentro del paquete DM0155_14102011. JR 14-Oct-2011. *****
+
+
+; **** Modificacion de acciones: Herramienta.Compras, Herramienta.AdmonCreditos, Herramienta.Contabilidad, Herramienta.Dinero, Rep.Cxc por Jesus Del Toro Andrade para el desarrollo DM0121 MODIFICACIÓN AL DLG MENÚ PRINCIPAL dentro del paquete DM0121_15112011. JR 16-Nov-2011 ****
+[MenuPrincipal.dlg/Acciones.Herramienta.Compras]
+EspacioPrevio=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.AdmonCreditos]
+EspacioPrevio=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Contabilidad]
+EspacioPrevio=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Dinero]
+EspacioPrevio=S
+
+[MenuPrincipal.dlg/Acciones.Rep.Cxc]
+EspacioPrevio=S
+; **** Termina modificaciones del desarrollo DM0121 MODIFICACIÓN AL DLG MENÚ PRINCIPAL dentro del paquete DM0121_15112011. JR 16-Nov-2011 ****
+
+
+; **** Integracion de acciones: Herramienta.DatosPlaneador, Cta.Productos, Herramienta.ChequeenLote por Jesus Del Toro Andrade para el desarrollo DM0121 MODIFICACIÓN AL DLG MENÚ PRINCIPAL dentro del paquete DM0121_15112011. JR 16-Nov-2011 ****
+[MenuPrincipal.dlg/Acciones.Herramienta.DatosPlaneador]
+Nombre=Herramienta.DatosPlaneador
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Actualizar Datos Planeador
+EnMenu=S
+TipoAccion=expresion
+Expresion=EjecutarSQLAnimado(<T>EXEC SpPlaneadorMAVIJOB :tMAVI<T>,<T>MAVI<T>)<BR> informacion(<T>Proceso Terminado<T>)
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Cta.Productos]
+Nombre=Cta.Productos
+Boton=0
+Menu=&Cuentas
+NombreDesplegar=&Productos
+EnMenu=S
+EnBarraAcciones=S
+TipoAccion=Formas
+ClaveAccion=Art
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ChequeenLote]
+Nombre=Herramienta.ChequeenLote
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&Cheque en Lote
+EnMenu=S
+EnBarraAcciones=S
+TipoAccion=Formas
+ClaveAccion=ChequeLoteCuentaMAVI
+Activo=S
+Visible=S
+; **** Termina integracion de acciones para el desarrollo DM0121 MODIFICACIÓN AL DLG MENÚ PRINCIPAL dentro del paquete DM0121_15112011. JR 16-Nov-2011 ****
+
+;***21/dic/2011 se cambio de lugar esta opcion que se encontraba en herramientas
+[MenuPrincipal.dlg/Acciones.DM0103ComsExpMacroMavifrm]
+Nombre=DM0103ComsExpMacroMavifrm
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Explorador Planeador MAVI
+EnMenu=S
+EnBarraAcciones=S
+TipoAccion=Formas
+ClaveAccion=DM0103ComsExpMacroMavifrm
+Activo=S
+Visible=S
+
+; **** Modificacion de accion CteL comentando por cambio de menu, 27/DIC/2011 Victor Enrique Murillo Torres, para desarrollo DM0155 SEGMENTACION DE MENUS dentro del paquete DM0155_27122011. JR 27-Dic-2011. ****
+;[MenuPrincipal.dlg/Acciones.CteL]
+;Nombre=CteL
+;Boton=0
+;NombreDesplegar=&Listas de Clientes
+;Menu=&Cuentas
+;EnMenu=S
+;EnBarraAcciones=S
+;EspacioPrevio=S
+;TipoAccion=Formas
+;ClaveAccion=CteL
+;Activo=S
+;Visible=S
+
+
+; **** Integracion de nueva accion Herramienta.AltaClienteMavi para desarrollo  dentro del paquete DM0117 CREDI TIPO CLIENTE Y DEUDOR. JR 03-Ene-2012. ****
+[MenuPrincipal.dlg/Acciones.Herramienta.AltaClienteMavi]
+Nombre=Herramienta.AltaClienteMavi
+Boton=0
+NombreDesplegar=Al&ta Cliente Mavi
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0117CREDITIPOCLIENTEFRM
+Activo=S
+Visible=S
+Menu=&Herramientas
+
+; **** Nueva accion, 21-Feb-2012 Tomas echeverria garvia, para desarrollo DM0158 Costeo de Fletes dentro del paquete DM0158_29032012. JR 29-Mar-2012. ****
+[MenuPrincipal.dlg/Acciones.Config.FactorSeguroFletesMAVI]
+Nombre=Config.FactorSeguroFletesMAVI
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Factor Seguro Fletes
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0158EMBFACTORSEGUROFLETEFRM
+Activo=S
+Visible=S
+
+
+
+; ***** Integracion de nueva accion dentro del paquete DM0174_12062012. JR 12-Jun-2012. ****
+[MenuPrincipal.dlg/Acciones.EXPDM0174EmbarquesPiso]
+Nombre=EXPDM0174EmbarquesPiso
+Boton=0
+Menu=&Procesos
+NombreDesplegar=Embarques Piso
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0174EmbPisoFrm
+Activo=S
+VisibleCondicion=SQL(<T>Select IsNull(Valor,0) From TablaStd where Nombre = :tSuc  and tablaSt = :tEmbarque<T>,Sucursal,<T>DM0174EMBARQUESPISO<T>)=1
+
+
+; **** Integracion de nueva accion para escaneos de recibos del paquete DM0184_19062012. JR 20-Jun-2012.****
+; **** Modificacion de claveaccion para escaneos de recibos del paquete DM0184_26062012. JR 26-Jun-2012. ****
+[MenuPrincipal.dlg/Acciones.Mov.PocketRecibos]
+Nombre=Mov.PocketRecibos
+Boton=0
+NombreDesplegar=Escaneo Recibos
+EnMenu=S
+TipoAccion=Formas
+;ClaveAccion=DM0184MovimientoPrincipalFrm
+ClaveAccion=DM0184PocketMovimientoPrincipalFrm
+Activo=S
+Visible=S
+Menu=&Procesos
+
+[MenuPrincipal.dlg/Acciones.Config.ParametrizacionCFD]
+Nombre=Config.ParametrizacionCFD
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Parametrización CDF
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=Dm0116ParametrizacionCFDVisFrm
+Activo=S
+Visible=S
+
+
+;** Integracion CFDFlex BVF 28062012
+[MenuPrincipal.dlg/Acciones.Config.CFDFlex]
+Nombre=Config.CFDFlex
+Boton=0
+NombreDesplegar=CFD &Flexible
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=CFDFlexMenuCfg
+Activo=S
+Visible=S
+Menu=C&onfigurar
+
+[MenuPrincipal.dlg/Acciones.Config.eDoc]
+Nombre=Config.eDoc
+Boton=0
+NombreDesplegar=Documento &Electrónico
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=eDocModulo
+Activo=S
+Menu=C&onfigurar
+VisibleCondicion=General.eDoc
+
+[MenuPrincipal.dlg/Acciones.Herramienta.CFDFlex]
+Nombre=Herramienta.CFDFlex
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=CFD Flexible
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=MenuHerramientaCFDFlex
+Activo=S
+VisibleCondicion=General.CFDFlex
+
+
+; **** Integracion de nueva accion para mostrar informacion de usuarios dentro del paquete DM0155_19072012. JR 19-Jul-2012. ****
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0155InformacionMavi]
+Nombre=Herramienta.DM0155InformacionMavi
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Información de Sesión
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0155InformacionMaviFrm
+Activo=S
+Visible=S
+EspacioPrevio=S
+
+
+; **** Integracion de nueva accion Exp.BitaCalif dentro del paquete DM0188_04092012. JR 04-Sep-2012. ****
+[MenuPrincipal.dlg/Acciones.Exp.BitaCalif]
+Nombre=Exp.BitaCalif
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=DM0188 Bitacora de Calificaciones
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0188BitacoraCalifFrm
+Activo=S
+Visible=S
+
+
+; **** Integracion de accion accion EXPCitaSuperv dentro del paquete DM0189_21092012. JR 24-Sep-2012. ****
+[MenuPrincipal.dlg/Acciones.EXPCitaSuperv]
+Nombre=EXPCitaSuperv
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=DM0189 Explorador de Citas de Supervisión
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0189ExpCitasSupervFrm
+Activo=S
+Visible=S
+
+
+; **** Integracion de nueva accion Herramienta.DM0172ClienteExpressMDA, Herramienta Para Clientes Nuevos de MDA JDelTA 08-10-2012, dentro del paquete DM0172_08102012. JR 08-Oct-2012. *****
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0172ClienteExpressMDA]
+Nombre=Herramienta.DM0172ClienteExpressMDA
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Cliente Express MDA
+EnMenu=S
+TipoAccion=Expresion
+ClaveAccion=DM0172ClienteExpressMDA
+Activo=S
+Visible=S
+Expresion=Ejecutar(<T>PlugIns\CteExpressMDA.exe <T>)
+
+
+; **** Nuevas acciones para Monedero Electronico. JR 11-Oct-2012. ****
+[MenuPrincipal.dlg/Acciones.Mov.Monedero]
+Nombre=Mov.Monedero
+Boton=0
+Menu=&Procesos
+NombreDesplegar=&Monedero Electrónico
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=MonederoMAVI
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Cta.Monedero]
+Nombre=Cta.Monedero
+Boton=0
+NombreDesplegar=&Monedero Electrónico
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=TarjetaMonederoMAVI
+Activo=S
+Visible=S
+Menu=&Cuentas
+EspacioPrevio=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.BuroMAVI]
+Nombre=Herramienta.BuroMAVI
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Buró de Crédito
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=MenuRepBCMavi
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.EXPBitacoraCte]
+Nombre=EXPBitacoraCte
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Explorador de Cuentas
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0192BitacoraCtasFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.MaviFchExigibles]
+Nombre=Herramienta.FchExigibles
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Fechas Exigibles
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0194FechasExigiblesVisFrm
+Activo=S
+Visible=S
+
+
+[MenuPrincipal.dlg/Acciones.ExpDM0194Exigibles]
+Nombre=ExpDM0194Exigibles
+Boton=0
+NombreDesplegar=Explorador de Exigibles
+TipoAccion=Formas
+ClaveAccion=DM0194PrincipalExigiblesFrm
+Menu=E&xploradores Mavi
+EnMenu=S
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.MaximoAval]
+Nombre=Herramienta.MaximoAval
+Boton=0
+Menu=&Herramientas
+;NombreDesplegar=Maximo Avales por Agente
+NombreDesplegar=Asignacion de Avales
+EnMenu=S
+;TipoAccion=Formas
+;ClaveAccion=DM0196AsignarMaxAval
+TipoAccion=Dialogos
+ClaveAccion=MenuHerrAsignacionAvales
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.EnvSupAncroid]
+Nombre=EnvSupAncroid
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Enviar Supervisiones Android
+EnMenu=S
+TipoAccion=Expresion
+Expresion=Ejecutar(<T>PlugIns\Supervision.exe <T>)
+Activo=S
+Visible=S
+
+;[MenuPrincipal.dlg/Acciones.Herramienta.Nivelesavales]
+;Nombre=Herramienta.Nivelesavales
+;Boton=0
+;Menu=&Herramientas
+;NombreDesplegar=Niveles para Avales
+;EnMenu=S
+;TipoAccion=Formas
+;ClaveAccion=DM0196NivelesAvalesFrm
+;Activo=S
+;Visible=S
+
+[MenuPrincipal.dlg/Acciones.EXPHISTMODI]
+Nombre=EXPHISTMODI
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Explorar Hist&Modi
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0168HISTMODI
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.cta.importador]
+Nombre=cta.importador
+Boton=0
+Menu=&Cuentas
+NombreDesplegar=Importador Agentes
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0206ImpAgente
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Config.EmbarqueVehic]
+Nombre=Config.EmbarqueVehic
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Embarques
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=DM0155EmbarqueVehiculos
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.ExpDM0195Histcatalogoclientes]
+Nombre=ExpDM0195Histcatalogoclientes
+Boton=0
+NombreDesplegar=Historial Catalogo de Clientes
+TipoAccion=Formas
+ClaveAccion=DM0195HistCatCteFrm
+Menu=E&xploradores Mavi
+EnMenu=S
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Analistas]
+Nombre=Herramienta.Analistas
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Analistas
+EnMenu=S
+TipoAccion=Expresion
+Expresion=Ejecutar(<T>PlugIns\Analistas.exe <T>)
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0211GenerarPagoCheque]
+Nombre=Herramienta.DM0211GenerarPagoCheque
+Boton=0
+NombreDesplegar=Generacion Pago Cheque X Lote
+TipoAccion=Formas
+ClaveAccion=DM0211GenPagChequesFrm
+Menu=&Herramientas
+EnMenu=S
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Config.ComiSuperv]
+Nombre=Config.ComiSuperv
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Comisiones de Supervisores
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=ConfigComisionesSupervFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0213CatalogoVehiculosProveedores]
+Nombre=Herramienta.CatalogoVehiculosProveedores
+Boton=0
+NombreDesplegar=DM0213 Catalogo Vehiculos-Proveedores
+TipoAccion=Formas
+ClaveAccion=DM0213ConsultaFinalFrm
+Menu=&Herramientas
+EnMenu=S
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.ExpDM0216VarPorcExi]
+Nombre=ExpDM0216VarPorcExi
+Boton=0
+NombreDesplegar=Explorador de Variación Porcentual De Exigibles
+TipoAccion=Formas
+ClaveAccion=DM0216VariacionPorsExigFrm
+Menu=E&xploradores Mavi
+EnMenu=S
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.RM1074ListaArtCbFrm]
+Nombre=Herramienta.RM1074ListaArtCbFrm
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=RM1074 Buscador codigos de barra articulos
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RM1074ListaArtCbFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0173ValidaMonederoFrm]
+Nombre=Herramienta.DM0173ValidaMonederoFrm
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0173 Validacion Monedero
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0173ValidaMonederoFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0221Liberador]
+Nombre=Herramienta.DM0221Liberador
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&DM0221 Configura Liberador
+EnMenu=S
+TipoAccion=dialogos
+ClaveAccion=DM0221ConfiguraDlg
+Activo=S
+Visible=S
+EspacioPrevio=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ctasenvidasmavicob]
+Nombre=Herramienta.ctasenvidasmavicob
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Cuentas enviadas a Mavicob
+EnMenu=S
+TipoAccion=Reportes Pantalla
+ClaveAccion=RM1084CtasenviadasMaviCob
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.InsertImporteLineaC]
+Nombre=Herramienta.InsertImporteLineaC
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Importe linea credito Cte
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0192InsertImporteLineaCredFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.EXPRM1094SimulaBonif]
+Nombre=EXPRM1094SimulaBonif
+Boton=0
+NombreDesplegar=Simulador de Bonificaciones
+EnMenu=S
+Activo=S
+Visible=S
+Menu=E&xploradores Mavi
+TipoAccion=Expresion
+Expresion=Ejecutar(<T>PlugIns\RM1094SimulaBonif.exe <T>+usuario+<T> <T>+Sucursal)
+
+
+[MenuPrincipal.dlg/Acciones.Herramienta.AuditoriaCredito]
+Nombre=Herramienta.AuditoriaCredito
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Auditoria de Credito
+EnMenu=S
+TipoAccion=Expresion
+Expresion=Ejecutar(<T>PlugIns\AuditoriaCred.exe <T>)
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0226InvMov]
+Nombre=Herramienta.DM0226InvMov
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Solicitud Inventario
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0226FlujoPapeFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0227GemOC]
+Nombre=Herramienta.DM0227GemOC
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Generar Ordenes De Compra
+EnMenu=S
+EspacioPrevio=S
+TipoAccion=Formas
+ClaveAccion=DM0227GenOCRespectoMaxyMinFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0228Rechazos]
+Nombre=Herramienta.DM0228Rechazos
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Rechazos
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0228BitacoraRechazosFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0229CambioSeccionCteFrm]
+Nombre=Herramienta.DM0229CambioSeccionCteFrm
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Cambios De Seccion Por Lote 
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0229CambioSeccionCteFrm
+Activo=S
+Visible=S
+
+
+[MenuPrincipal.dlg/Acciones.EXPDM0232Fotos]
+Nombre=EXPDM0232Fotos
+Boton=0
+NombreDesplegar=Explorador de Fotos Entrega de Articulos
+EnMenu=S
+Activo=S
+Visible=S
+Menu=E&xploradores Mavi
+TipoAccion=Formas
+ClaveAccion=DM0232ExpFotosArtInstFrm
+
+[MenuPrincipal.dlg/Acciones.Herramienta.EnviaGastoCOMER]
+Nombre=Herramienta.EnviaGastoCOMER
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Enviar Gastos a COMER
+EnMenu=S
+TipoAccion=Expresion
+Expresion=Ejecutar(<T>PlugIns\EnviaGastosComer.exe <T>+Comillas(usuario))
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.PARAMETROSSCORING]
+Nombre=Herramienta.PARAMETROSSCORING
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=PARAMETROS SCORING
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=MenuCfgScoring
+Activo=S
+Visible=S
+
+
+;Acciones para el desarrollo DM0239 de distribucion 
+;Fernando Romero Robles 04/12/2014
+
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0239DistrAuto]
+Nombre=Herramienta.DM0239DistrAuto
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Distribucion Automatica
+EnMenu=S
+EspacioPrevio=S
+TipoAccion=Formas
+ClaveAccion=DM0239DistribucionAutomaticaFrm
+Activo=S
+Visible=S
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0239Jerarquia]
+Nombre=Herramienta.DM0239Jerarquia
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0239 Jerarquia Sucursales
+EnMenu=S
+EspacioPrevio=S
+TipoAccion=Formas
+ClaveAccion=DM0239JerarquiaSucFrm
+Activo=S
+Visible=S
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0239MaxArtxSuc]
+Nombre=Herramienta.DM0239MaxArtxSuc
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0239 Maximo Articulos x  Linea
+EnMenu=S
+EspacioPrevio=S
+TipoAccion=Formas
+ClaveAccion=DM0239ArtMaxSucFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.EXPDM0238ConvenInstVigen]
+Nombre=Exp.ConvenInstVigen
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Convenios Instituciones Vigencias
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0238VigenciasInstitucionesFrm
+Activo=S
+VisibleCondicion=Si SQL(<T>SELECT COUNT(U.USUARIO) VAL FROM USUARIO U JOIN TABLASTD T ON U.USUARIO=T.NOMBRE WHERE T.TABLAST=:ttab AND T.VALOR =:tins AND U.USUARIO=:tusr<T>,<T>ACCESO_VIGENCIAS_INSTITUCIONES<T>,<T>INSTITUCIONES<T>,Usuario)=1<BR>entonces<BR>Verdadero
+
+[MenuPrincipal.dlg/Acciones.EXPDM0238ConvenInstVigenEstatus]
+Nombre=Exp.ConvenInstVigenEstatus
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=Convenios Instituciones Estatus
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0238VigenciasInstEstatusFrm
+Activo=S
+VisibleCondicion=Si SQL(<T>SELECT COUNT(U.USUARIO) VAL FROM USUARIO U JOIN TABLASTD T ON U.USUARIO=T.NOMBRE WHERE T.TABLAST=:ttab AND T.VALOR =:tins AND U.USUARIO=:tusr<T>,<T>ACCESO_VIGENCIAS_INSTITUCIONES_EST<T>,<T>ESTATUS<T>,Usuario)=1<BR>entonces<BR>Verdadero
+
+[MenuPrincipal.dlg/Acciones.Cta.DM0237EstructuraAgte]
+Nombre=Cta.DM0237EstructuraAgte
+Boton=0
+Menu=&Cuentas
+NombreDesplegar=DM0237 Estructura Agente
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=DM0237HerramientasAgente
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.RM1114CartaConf]
+Nombre=Herramienta.RM1114CartaConf
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=RM1114CartaConf
+EnMenu=S
+EspacioPrevio=S
+TipoAccion=Formas
+ClaveAccion=RM1114CartaLiquidacionConfFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Balanza]
+Nombre=Herramienta.Balanza
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Previo Balanza de Comprobación
+EnMenu=S
+EspacioPrevio=S
+TipoAccion=Formas
+ClaveAccion=VarBalanzaSAT
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.GenCatalogo]
+Nombre=Herramienta.GenCatalogo
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&Previo Catálogo de Cuentas
+EnMenu=S
+EspacioPrevio=S
+TipoAccion=Formas
+ClaveAccion=AsignaNivel
+Activo=S
+Visible=S
+
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0235ControlDepDisp]
+Nombre=Herramienta.DM0235ControlDepDisp
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0235 Control de Depositos y Dispersiones
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0235ControladorDepyDispFrm
+Activo=S
+Visible=S
+
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0235Correos]
+Nombre=Herramienta.DM0235Correos
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0235 Ctrl Dep config correos
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0235CorreosFrm
+Activo=S
+Visible=S
+
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0243]
+Nombre=Herramienta.DM0243
+Boton=0
+NombreDesplegar=DM0243 Depositos Instituciones
+EnMenu=S
+EspacioPrevio=S
+TipoAccion=Formas
+ClaveAccion=DM0243DepositosInstFrm
+Activo=S
+Visible=S
+Menu=&Herramientas
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0243Cred]
+Nombre=Herramienta.DM0243Cred
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0243 Depositos Instituciones
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0243DepositosInstCredFrm
+Activo=S
+Visible=S
+
+
+[MenuPrincipal.dlg/Acciones.Herramienta.MensajeAval]
+Nombre=Herramienta.MensajeAval
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Mensaje para el check de cobro Avales
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=MensajeAvalFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0246TipoSucursal]
+Nombre=Herramienta.DM0246TipoSucursal
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0246 Tipo Cuadro Basico por Sucursal
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0246CuadrosBasicosFrm
+Activo=S
+Visible=S
+
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0246TipoAlm]
+Nombre=Herramienta.DM0246TipoAlm
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0246 Tipos de Almacenes
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0246TipoAlmFrm
+Activo=S
+Visible=S
+
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0246ImportarExcel]
+Nombre=Herramienta.DM0246ImportarExcel
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0246 Importar cuadro basico
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0246ImportarDatosFrm
+Activo=S
+Visible=S
+
+;** Integracion paquete DM0240  cuentas para quebranto 
+[MenuPrincipal.dlg/Acciones.EXPDM0240CtaQuebranto]
+Nombre=Exp.DM0240CtaQuebranto
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar= DM0240 Cuentas Incobrables Fiscal
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0240CtasQuebranto
+Activo=S
+Visible=S
+EspacioPrevio=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0173CampañasMonedero]
+Nombre=Herramienta.DM0173CampañasMonedero
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0173Campañas Monedero
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0173CampanasMonederoConsFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0247HerrCalzado]
+Nombre=Herramienta.DM0247HerrCalzado
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0247 Herramienta Cambio Calzado
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0247HerramientaCambioCalzadoFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramientas.RM1120Factor]
+Nombre=Herramientas.RM1120Factor
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&Factor Ctas Instituciones
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RM1120FactorCtasInstFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramientas.RM1120Nivel]
+Nombre=Herramientas.RM1120Nivel
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&Nivel Ctas Instituciones
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RM1120NivelCtasInstFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramientas.RM1120Bitacora]
+Nombre=Herramientas.RM1120Bitacora
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&Bitacora Ctas Instituciones
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RM1120BitacCtasInstFrm
+Activo=S
+Visible=S
+
+[Menuprincipal.dlg/Acciones.Herramienta.DM0248ArtLote]
+Nombre=Herramienta.DM0248ArtLote
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0248 Articulos en Lote
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=dm0248ArticuloslLoteFrm
+Activo=S
+Visible=S
+
+
+[MenuPrincipal.dlg/Acciones.Herramienta.PagoGestiones]
+Nombre=Herramienta.PagoGestiones
+Boton=0
+NombreDesplegar=Pago Gestiones Cobranza
+EnMenu=S
+Activo=S
+Visible=S
+Menu=&Herramientas
+TipoAccion=Expresion
+;ClaveAccion=RM0906PreliminarCobroFrm
+Expresion=Ejecutar(<T>PlugIns\IMPRESION\Impresion.exe <T>+Usuario)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0256ConfigPagares]
+Nombre=Herramienta.DM0256ConfigPagares
+Boton=0
+EnMenu=S
+Activo=S
+Visible=S
+NombreDesplegar=DM0256 Herramienta de configuracion pagares
+TipoAccion=Formas
+ClaveAccion=DM0256CapturaPagareFRM
+Menu=&Herramientas
+
+[MenuPrincipal.dlg/Acciones.Config.MenuCfgCredINTL]
+Nombre=Config.MenuCfgCredINTL
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Configuracion &INTL BURO
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=MenuCfgCredINTL
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramientas.DM0257ListaNegra]
+Nombre=Herramientas.DM0257ListaNegra
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&DM0257ListaNegra
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0257ListaNegraFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0263DisSucGeoFrm]
+Nombre=Herramienta.DM0263DisSucGeoFrm
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&DM0263_DisSucGeo
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0263DisSucGeoFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0263EmpleadoZonaFrm]
+Nombre=Herramienta.DM0263EmpleadoZonaFrm
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&DM0263_EmpleadoZona
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0263EmpleadoZonaFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.INTL604CargaBuro]
+Nombre=Herramienta.INTL604CargaBuro
+Boton=0
+NombreDesplegar=&INTL604CargaBuro
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\INTL604.exe <T>)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0264RedDimas]
+Nombre=Herramienta.DM0264RedDimas
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&DM0264RedDimas
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0264ExploradorDimasFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0264CuotaDimas]
+Nombre=Herramienta.DM0264CuotaDimas
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&DM0264CuotaDimas
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0264CuotaDimaFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0266CalendarioDistribucion]
+Nombre=Herramienta.DM0266CalendarioDistribucion
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Calendario de Distribucion (DM0266)
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0266CalendarioDistribucionCD
+Activo=S
+Visible=S
+EspacioPrevio=S
+
+[MenuPrincipal.dlg/Acciones.Config.posiblesDimas]
+Nombre=Config.posiblesDimas
+Boton=0
+NombreDesplegar=Parametros Reportes Dimas
+EnMenu=S
+EspacioPrevio=S
+TipoAccion=Formas
+ClaveAccion=RM1132parametrosfrm
+Activo=S
+Visible=S
+Menu=C&onfigurar
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ACD00017VisorMavi]
+Nombre=Herramienta.ACD00017VisorMavi
+Boton=0
+NombreDesplegar=&Visor MAVI
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Asigna(Info.UsuarioGD,SQL(<T>SELECT Propiedad FROM Prop WITH(NOLOCK) WHERE RAMA=<T>+comillas(<T>USR<T>)+<T> AND TIPO=<T>+comillas(<T>GIRO<T>)+<T> AND Cuenta= :tUsu<T>,Usuario))<BR>Ejecutar(<T>PlugIns\ALCHEMY\AlchemyII.exe <T>+Info.UsuarioGD+<T> <T>+<T>VACIO<T>+<T> <T>+<T>CLIENTE<T>+<T> <T>+<T>N<T>)<BR>fin
+
+;Carlos González - Mario Díaz	2016-03-16
+[MenuPrincipal.dlg/Acciones.Herramienta.SIP]
+Nombre=Herramienta.SIP
+Boton=0
+NombreDesplegar=SIP
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\SIP\SIP.exe <T>+<T>CUENTA <T>+Usuario)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0267BitacoraDima]
+Nombre=Herramienta.DM0267BitacoraDima
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&DM0267BitacoraDima
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0267BitacoraPagoDIMARFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0276]
+Nombre=Herramienta.DM0276
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0276 Facturacion Automatica
+EnMenu=S
+EspacioPrevio=S
+TipoAccion=Formas
+ClaveAccion=DM0276AfectacionesloteFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0269OrdenadorRutaReparto]
+Nombre=Herramienta.DM0269OrdenadorRutaReparto
+Boton=0
+EnMenu=S
+Activo=S
+Visible=S
+NombreDesplegar=Ordenador ruta de reparto
+TipoAccion=Formas
+ClaveAccion=DM0269OrdenadorRutaDeRepartoFrm
+Menu=&Herramientas
+
+[MenuPrincipal.dlg/Acciones.Herramienta.RM0847Cat]
+Nombre=Herramienta.RM0847Cat
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Tabla Config.CAT
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RM0847CAT
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0278CancelacionSegurosVida]
+Nombre=Herramienta.DM0278CancelacionSegurosVida
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Cancelación Seguros De Vida
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0278CancelacionSegurosPrincFRM
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Config.DM0287]
+Nombre=Config.DM0287
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Parámetros Eficientador Liberador
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=DM0287menuliberadordlg
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0287Autorizar]
+Nombre=Herramienta.DM0287Autorizar
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Autorización Especial
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0287ValidaFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Config.ConfigMonederoFamilia]
+Nombre=Config.ConfigMonederoFamilia
+Boton=0
+Menu=C&onfigurar
+EsDefault=S
+NombreDesplegar=Configura MonederoXFamilia
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0173MonederoxFamiliaConf
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0292PorcentajeArticulosQ]
+Nombre=Herramienta.DM0292PorcentajeArticulosQ
+Boton=0
+Menu=&Herramientas
+EsDefault=S
+NombreDesplegar=Configura Porcentaje Articulos Q
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0292PorcentajeDescuentoQFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.RM1138ValidarTelefono]
+Nombre=Herramienta.RM1138ValidarTelefono
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Validacion de Telefono
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RM1138PendientesxValidar
+Activo=S
+Visible=S
+
+;Ana María Hernández Vazquez 2016-11-28
+;Llamada al Plugin de Asignación de Supervisiones para Jefatura de Crédito
+[MenuPrincipal.dlg/Acciones.Herramienta.ACD00021AsigJefSup]
+Nombre=Herramienta.Herramienta.ACD00021AsigJefSup
+Boton=0
+NombreDesplegar=&Asignacion Jefes Supervisores y Auditores de Credito 
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Asigna(Info.UsuarioGD,SQL(<T>SELECT Propiedad FROM Prop WITH(NOLOCK) WHERE RAMA=<T>+comillas(<T>USR<T>)+<T> AND TIPO=<T>+comillas(<T>GIRO<T>)+<T> AND Cuenta= :tUsu<T>,Usuario))<BR>Ejecutar(<T>PlugIns\AsignacionJefes\AsignacionSup.exe <T> +Info.UsuarioGD)<BR>fin
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0300ImpresionGestionesxCliente]
+Nombre=Herramienta.DM0300ImpresionGestionesxCliente
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Impresión de Gestiones Para Clientes
+EnMenu=S
+TipoAccion=Expresion
+Expresion=asigna(Mavi.DM0300Base,SQL(<T>SELECT DB_NAME()<T>))<BR>Ejecutar(<T>PlugIns\DM0300\ReporteGestionxCliente.exe webmaster <T>+ Mavi.DM0300Base)
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Config.DM0299Tipodecliente]
+Nombre=Config.DM0299Tipodecliente
+Boton=0
+Menu=C&onfigurar
+EsDefault=S
+NombreDesplegar=Tipo de Credito
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0299TipoClienteTBL
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Cta.Rentabilidad]
+Nombre=Cta.Rentabilidad
+Boton=0
+Menu=&Cuentas
+NombreDesplegar=&Rentabilidad
+EnMenu=S
+EnBarraAcciones=S
+TipoAccion=Dialogos
+ClaveAccion=RM1143MenuRentabilidadDlg
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.RM1146Configuracion]
+Nombre=Herramienta.RM1146Configuracion
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Contadores ADJ
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RM1146Configuracion
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.EtiquetaAdjudicaciones]
+Nombre=Herramienta.EtiquetaAdjudicaciones
+Boton=0
+NombreDesplegar=Impresion Etiquetas Adjudicaciones
+EnMenu=S
+Activo=S
+Visible=S
+Menu=&Herramientas
+TipoAccion=Expresion
+Expresion=Ejecutar(<T>PlugIns\EtiquetasAdjudicaciones.exe <T>+Comillas(usuario)+<T>)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ACW00042FichaTecnica]
+Nombre=ACW00042FichaTecnica
+Boton=109
+EnBarraHerramientas=S
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+NombreEnBoton=S
+NombreDesplegar=Ficha técnica
+EspacioPrevio=S
+Expresion=Ejecutar(<T>PlugIns\FichasTecnicasxArt\FichasTecnicasSIP.exe <T>+ usuario)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ACD00023CancelaSeguros]
+Nombre=Herramienta.ACD00023CancelaSeguros
+Boton=0
+NombreDesplegar=ACD00023 CANCELACION SEGUROS
+EnMenu=S
+Activo=S
+Visible=S
+Menu=&Herramientas
+TipoAccion=Expresion
+Expresion=Ejecutar(<T>PlugIns\CANCELACION\CANCELACION.exe <T>+Usuario)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.SELP]
+Nombre=Herramienta.Herramienta.SELP
+Boton=0
+NombreDesplegar=SELP
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Asigna(Mavi.UenNum,SQL(<T>Select ISNULL(UEN,1)UEN from usuario where usuario=:tval1<T>,Usuario))<BR>Asigna(Mavi.UsuarioCredito,SQL(<T>Select  ACCESO from usuario where usuario=:tval1<T>,Usuario))<BR>Ejecutar(<T>PlugIns\SELP\SELPDesktop.exe <T>+Usuario+<T> <T>+Mavi.UsuarioCredito+<T> <T>+Mavi.UenNum+<T> <T>+Sucursal)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0304FamiliaRelacionada]
+Nombre=Herramienta.DM0304FamiliaRelacionada
+Boton=0
+NombreDesplegar=Familia Linea Relacionada
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0304FamiliaLineaRelacionadaFrm
+Activo=S
+Visible=S
+Menu=&Herramientas
+
+[MenuPrincipal.dlg/Acciones.Config.PanelInformacionConfig]
+Nombre=Config.PanelInformacionConfig
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Configuracion Panel de Informacion
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=PanelInformacionConfig
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.PanelInformacion]
+Nombre=Herramienta.PanelInformacion
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Panel de Informacion
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=PanelInformacionDiag
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0285familialineaesp]
+Nombre=Herramienta.DM0285familialineaesp
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=eCommerce Familia-Linea Especial
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0285familialineaespfrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0307CitasProveedores]
+Nombre=Herramienta.DM0307CitasProveedores
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Citas de Proveedores
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0307CitasProveedoresFrm
+Activo=S
+Visible=S
+
+;Alejandra García 2017-07-07
+;Llamada al Plugin de Auditoría de Cobranza
+[MenuPrincipal.dlg/Acciones.Herramienta.ACW00022AuditoriaCobranza]
+Nombre=Herramienta.ACW00022AuditoriaCobranza
+Boton=0
+NombreDesplegar=&Auditoria de Cobranza
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Asigna(Info.UsuarioGD,SQL(<T>SELECT Propiedad FROM Prop WITH(NOLOCK) WHERE RAMA=<T>+comillas(<T>USR<T>)+<T> AND TIPO=<T>+comillas(<T>GIRO<T>)+<T> AND Cuenta= :tUsu<T>,Usuario))<BR>Ejecutar(<T>PlugIns\AsignacionJefes\AuditoriaCobranza.exe <T>+Info.UsuarioGD)<BR>fin
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Porcsobreprecio]
+Nombre=Herramienta.Porcesobreprecio
+Boton=0
+NombreDesplegar=Porcentaje Precio DE A
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\eCommercePorsobrePrecio.exe <T>+<T>ecomporcp<T>+<T> <T>+ Usuario)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.CampañasSms]
+Nombre=Herramienta.CampañasSms
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Campañas Telefónicas
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RM1160CampanaTelefonicaFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Logmetodopago]
+Nombre=Herramienta.Logmetodopago
+Boton=0
+NombreDesplegar=Log metodo de Pago
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\Logmetodopago\Logmetodopago.exe <T>+<T>ecomlogmp<T>)
+
+[MenuPrincipal.dlg/Acciones.EXPRepep]
+Nombre=EXPRepep
+Boton=0
+Menu=E&xploradores Mavi
+NombreDesplegar=RM1142 Explorador Telefonos REPEP
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RM1142ExploREPEPFrm
+Activo=S
+Visible=S
+[MenuPrincipal.dlg/Acciones.Config.PanelInformacionConfig]
+Nombre=Config.PanelInformacionConfig
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Configuracion Panel de Informacion
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=PanelInformacionConfig
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ACW00050MenuCFDI]
+Nombre=Herramienta.ACW00050MenuCFDI
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Catalogo CFDI
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=ACW00050MenuCFDI
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0321SegurosVida]
+Nombre=Herramienta.DM0321SegurosVida
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0321 Automatización Seguros de Vida
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=DM0321SegurosVidaDlg
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.RM1168ComprasAuditoriaDIMASTiendaVirtualFRM]
+Nombre=Herramienta.RM1168ComprasAuditoriaDIMASTiendaVirtualFRM
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=RM1168 Auditoria
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RM1168ComprasAuditoriaDIMASTiendaVirtualFRM
+Activo=S
+Visible=S
+
+	 
+[MenuPrincipal.dlg/Acciones.Config.ConfiguracionReanalisis]
+Nombre=Config.ConfiguracionReanalisis
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Configuración de Re Análisis
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=RM1154ConfigReanalisis
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0264PorcentajeDima]
+Nombre=Herramienta.DM0264PorcentajeDima
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=&DM0264PorcentajeDima
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0264PorcentajeDimasFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.AsignacionSupervisores]
+Nombre=Herramienta.AsignacionSupervisores
+Boton=0
+NombreDesplegar=Asignacion Supervisores
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\AsignacionSupervisores\AsignacionSupervisores.exe <T>+Sucursal)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0285EComTemporadasFrm]
+Nombre=Herramienta.DM0285EComTemporadasFrm
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Ordenamiento Ecommerce
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0285EComTemporadasFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ReporteVentaComparativo]
+Nombre=Herramienta.ReporteVentaComparativo
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Reporte Venta Comparativo
+EnMenu=S
+TipoAccion=Expresion
+ClaveAccion=Herramienta.ReporteVentaComparativo
+Expresion=Ejecutar(<T>PlugIns\ReporteVentasComparativo\ReporteVentasComparativo.exe <T>+<T>ACD00030<T>+<T>)
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.CyberPuerta]
+Nombre=Herramienta.CyberPuerta
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=CyberPuerta
+EnMenu=S
+TipoAccion=Expresion
+ClaveAccion=Herramienta.CyberPuerta
+Expresion=Ejecutar(<T>PlugIns\CyberPuerta\CyberpuertaFTP.exe <T>+Usuario+<T> <T>+<T>ACD00031<T>+<T>)
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ConfiguracionPuntoVenta]
+Nombre=Herramienta.ConfiguracionPuntoVenta
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Configuraciones del Punto de Venta
+EnMenu=S
+TipoAccion=Expresion
+ClaveAccion=Herramienta.ConfiguracionPuntoVenta
+Expresion=Ejecutar(<T>PlugIns\PuntoVenta\PuntoVenta.exe <T>+1)
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Mov.PuntoVentaMavi]
+Nombre=DM0312PuntoVenta
+Boton=0
+Menu=&Procesos
+NombreDesplegar=Punto de Venta
+EnMenu=S
+TipoAccion=Expresion
+ClaveAccion=Mov.PuntoVentaMavi
+Expresion=Ejecutar(<T>PlugIns\PuntoVenta\PuntoVenta.exe <T>+Usuario+<T> <T>+EstacionTrabajo+<T> <T>+Sucursal)
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.PromocionesPuntoVenta]
+Nombre=Herramienta.PromocionesPuntoVenta
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Promociones del Punto de Venta
+EnMenu=S
+TipoAccion=Expresion
+ClaveAccion=Herramienta.PromocionesPuntoVenta
+Expresion=Ejecutar(<T>PlugIns\PuntoVenta\PuntoVenta.exe <T>+2)
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0329DepuracionSeguros]
+Nombre=Herramienta.DM0329DepuracionSeguros
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Eliminar validacion precio
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0329hIVentaExcluyeValidacionPrecioFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0285CompraseCommerce]
+Nombre=Herramienta.DM0285CompraseCommerce
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=eCommerce
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=DM0285VTASAgrupaFamilia
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ACD00029LimpiezaCorreo]
+Nombre=Herramienta.ACD00029LimpiezaCorreo
+Boton=0
+NombreDesplegar=Limpieza de Correos
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\LimpiezaCorreo\ManejoLimpiezaCorreos.exe <T>+<T>ACD00029 <T>+Usuario)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DIMACredilana]
+Nombre=Herramienta.DIMACredilana
+Boton=0
+NombreDesplegar=Complemento App DIMA Credilana
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\DIMACredilana\DimasElite.exe <T>)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DIMACredilanaAtencionC]
+Nombre=Herramienta.DIMACredilanaAtencionC
+Boton=0
+NombreDesplegar=App DIMA Credilana Atencion Clientes
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\RutaTicket.exe <T>+<T>DIMA<T>+<T> <T>+Usuario+<T> <T>+Usuario+<T> <T>+Usuario+<T> <T>+Sucursal+<T> <T>+EstacionTrabajo)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.EstadoCuentaDima]
+Nombre=Herramienta.EstadoCuentaDima
+Boton=0
+NombreDesplegar=Estados de Cuenta
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\EstadoDeCuentaDima\EstadoCuentaDima.exe <T>+<T>ESTADODIMA<T>+<T> <T>+Usuario)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.AgrupadorDeAlmacenes]
+Nombre=Herramienta.AgrupadorDeAlmacenes
+Boton=0
+NombreDesplegar=Agrupador de Almacenes
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\AgrupadorDeAlmacenes\AgrupadorDeAlmacenes.exe <T>+Usuario)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.KPIEcommerce]
+Nombre=Herramienta.KPIEcommerce
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=KPI E-commerce
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=ACD00033KPIeco
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.RM0906ConfigDivisionYParam]
+Nombre=Herramienta.RM0906ConfigDivisionYParam
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Configuracion Divisiones y Parametros 
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RM0906ConfigDivisionYParamFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.VentasExistencias]
+Nombre=Herramienta.VentasExistencias
+Boton=0
+NombreDesplegar=TOP DE VENTAS
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\VentasExistencias\VentasExistencias.exe <T>+<T>TOP<T>)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ValidacionTel]
+Nombre=Herramienta.ValidacionTel
+Boton=0
+NombreDesplegar=Validacion Telefonica
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>C:\AppsMavi\SHM\SHM.exe <T>+<T>VALIDACIONTELEFONICA<T>+<T> <T>+Usuario+<T> <T>+Sucursal)
+
+
+[MenuPrincipal.dlg/Acciones.Config.PresumiblesBF]
+Nombre=Config.PresumiblesBF
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Presumibles BF
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RM1132ACREDITablaDeConfiguracionFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.HistoricoActualizacion]
+Nombre=Herramienta.HistoricoActualizacion
+Boton=0
+NombreDesplegar=Historico de actualizacion de datos
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\HistoricoActualizacion\HistoricoDatosActualizados.exe)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.AlertaFajillas]
+Nombre=Herramienta.AlertaFajillas
+Boton=0
+NombreDesplegar=Reporte Alerta Fajillas
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\ReporteAlertaFajillas.exe <T>+Usuario)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.AjusteApoyoCobranza] 
+Nombre=Herramienta.AjusteApoyoCobranza 
+Boton=0
+Menu=&Herramientas 
+NombreDesplegar=Ajustes de Apoyo 
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=RM0906HerramAjusteApoyodimaAnexoFrm 
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0216CatalogoDatalogic]
+Nombre=Herramienta.DM0216CatalogoDatalogic
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Servicios DataLogic
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0216VTASArtDatalogicPralFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ConfiguracionTelemarketing]
+Nombre=Herramienta.ConfiguracionTelemarketing
+Boton=0
+NombreDesplegar=Configuracion Telemarketing
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\Telemarketing\ConfiguracionTelemarketing.exe <T>+<T>TELEMARKETING<T>)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0345FamiliasLineasValidasAppDima]
+Nombre=Herramienta.DM0345FamiliasLineasValidasAppDima
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Familias-Lineas Validas App Dima
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0345COMSFamiliasLineasValidasAppDimaFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0345FamiliaImagenAppDima]
+Nombre=Herramienta.DM0345FamiliaImagenAppDima
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Familia e Imagenes App Dima
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0345COMSFamiliasEImagenesAppDimaFrm
+Activo=S
+Visible=S
+
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Forecast]
+Nombre=Herramienta.Forecast
+Boton=0
+NombreDesplegar=Forecast Compras
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\ForecastCompras\ForecastDeCompras.exe <T>+Usuario)
+
+[MenuPrincipal.dlg/Acciones.Config.MonederoXBienvenida]
+Nombre=Config.MonederoXBienvenida
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Párametros Bono Cliente DIMA
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0350MonederoXBienvenidaFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.CotizadorCOMSImportacion]
+Nombre=Herramienta.CotizadorCOMSImportacion
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=DM0348 Tabla De Parametros Cotizador Compras
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0348COMSAutenticacionFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DM0336VTASGestionarPedidosDeMagentoPrincipalFrm]
+Nombre=Herramienta.DM0336VTASGestionarPedidosDeMagentoPrincipalFrm
+Boton=0
+NombreDesplegar=DM0336 Cambio De Estatus Y Asignacion De Tracking Number
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0336VTASGestionarPedidosDeMagentoPrincipalFrm
+Activo=S
+Visible=S
+Menu=&Herramientas
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DashboardAfiliacionDima]
+Nombre=Herramienta.DashboardAfiliacionDima
+Boton=0
+NombreDesplegar=Dashboard Afiliacion Dima
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\DashboardAfiliacionDima\DashboardAfiliacionDima.exe)
+
+[MenuPrincipal.dlg/Acciones.EXPCobrosGestores]
+Nombre=EXPCobrosGestores
+Boton=0
+NombreDesplegar=Cobros Gestores Cobranza
+EnMenu=S
+Activo=S
+Visible=S
+Menu=E&xploradores Mavi
+TipoAccion=Expresion
+Expresion=Ejecutar(<T>PlugIns\CobrosGestoresCobranza\CobrosGestoresCobranza.exe <T>+usuario+<T> <T>+Comillas(Sucursal)+<T> <T>+EstacionTrabajo)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.EstadoCuentaBancomer]
+Nombre=Herramienta.EstadoCuentaBancomer
+Boton=0
+NombreDesplegar=Estado de Cuenta Bancomer
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\EstadoCuentaBancomer\EstadoCuentaBancomerH2H.exe <T>+<T>ESTADOC<T>)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Macros]
+Nombre=Herramienta.Macros
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Configuracion Reporte Macros
+EnMenu=S
+TipoAccion=Dialogos
+ClaveAccion=Mavi.DM0341MenuMacrosDlg
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ReduccionAsignacionDistribucion]
+Nombre=Herramienta.ReduccionAsignacionDistribucion
+Boton=0
+NombreDesplegar=Reducción Automática Asignación Distribución
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\ReduccionAsignacionDistribucion\ReduccionAsignacionDistribucion.exe <T>+Usuario)
+
+; Accion para preliminar c#
+[MenuPrincipal.dlg/Acciones.EXPPrelCobroNet]
+Nombre=EXPPrelCobroNet
+Boton=0
+NombreDesplegar=Preliminar de Cobro Net
+EnMenu=S
+Activo=S
+Visible=S
+Menu=E&xploradores Mavi
+TipoAccion=Expresion
+Expresion=Ejecutar(<T>PlugIns\PreliminardeCobro\PreliminarCobro.exe <T>+Comillas(usuario)+<T> <T>+Comillas(basedatos))
+
+[MenuPrincipal.dlg/Acciones.Herramienta.TarjetaDepartamental]
+Nombre=Herramienta.TarjetaDepartamental
+Boton=0
+NombreDesplegar=Tarjeta Departamental
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\TarjetaDepartamental\tarjetaDepartamental.exe  <T>+2+<T> <T>+Usuario+<T> <T>+Sucursal)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.TarjetaPorSucursal]
+Nombre=Herramienta.TarjetaPorSucursal
+Boton=0
+NombreDesplegar=Tarjeta Por Sucursal
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\TarjetaPorSucursal\TarjetasPorSucursal.exe)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.TableroDeControlDima]
+Nombre=Herramienta.TableroDeControlDima
+Boton=0
+NombreDesplegar=Tablero De Control Dima
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\TableroControlDima\TableroDeControlDima.exe <T>+Usuario)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ACD0041CoordinadoresDima]
+Nombre=Herramienta.ACD0041CoordinadoresDima
+Boton=0
+NombreDesplegar=Configuracion de la App Coordinadores DIMA
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\AppCoordinadoresDIMA\DIMASubgerentes.exe  <T>)
+
+[MenuPrincipal.dlg/Acciones.Config.DM0264Excepciones]
+Nombre=Config.DM0264Excepciones
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=DM0264 Excepciones Monedero Red DIMA
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0264ExcepcionesFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Config.DisminucionCreditoBF]
+Nombre=Config.DisminucionCreditoBF
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Disminución Linea de Crédito BF
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0351DisminucionLineaCreditoBFFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.MetodosPagoMagento]
+Nombre=Herramienta.MetodosPagoMagento
+Boton=0
+Menu=&Herramientas
+NombreDesplegar=Metodos de Pago de Magento
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=DM0336VTAScMetodosPagoMagentoFrm
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ProvisionDeFlujos]
+Nombre=Herramienta.ProvisionDeFlujos
+Boton=0
+NombreDesplegar=ProvisionDeFlujos
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\ProvisionDeFlujos\ProvisionDeFlujos.exe <T>+Usuario)
+
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DepRefBancomer]
+Nombre=Herramienta.DepRefBancomer
+Boton=0
+NombreDesplegar=Depositos Referenciados Bancomer
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\DepositosBancomer\DepositosReferenciadosBancomer.exe<T>)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.DropshippingMinoristas]
+Nombre=Herramienta.DropshippingMinoristas
+Boton=0
+NombreDesplegar=DropshippingMinoristas
+EnMenu=S
+TipoAccion=Expresion
+Activo=S
+Visible=S
+Menu=&Herramientas
+Expresion=Ejecutar(<T>PlugIns\DropshippingMinoristas\Dropshipping.exe <T>+Usuario)
+
+[MenuPrincipal.dlg/Acciones.Config.EvtVentaCruzada]
+Nombre=Config.EvtVentaCruzada
+Boton=0
+Menu=C&onfigurar
+NombreDesplegar=Eventos Venta Cruzada
+EnMenu=S
+TipoAccion=Formas
+ClaveAccion=AEA00010EvtVentaCruzadaFrm
+Activo=S
+Visible=S
+
+
+;Alma Bolaños 28/12/2018
+;***** Intelisis 5000, Cambia el orden de Menu y se adañe las sig. lineas para regresar el Menu como estaba en la version 3100*****
+
+[MenuPrincipal.dlg/Acciones.Mov.Ventas]
+Nombre=Mov.Ventas
+Menu=&Procesos
+NombreDesplegar=&Ventas
+
+[MenuPrincipal.dlg/Acciones.Mov.Cxc]
+Nombre=Mov.Cxc
+Menu=&Procesos
+NombreDesplegar=Cuentas por &Cobrar
+
+[MenuPrincipal.dlg/Acciones.Mov.Dinero]
+Nombre=Mov.Dinero
+Menu=&Procesos
+NombreDesplegar=&Tesorería
+
+[MenuPrincipal.dlg/Acciones.Mov.Inventarios]
+Nombre=Mov.Inventarios
+Menu=&Procesos
+NombreDesplegar=&Inventarios
+
+[MenuPrincipal.dlg/Acciones.Mov.Cxp]
+Nombre=Mov.Cxp
+Menu=&Procesos
+NombreDesplegar=Cuentas por &Pagar
+
+[MenuPrincipal.dlg/Acciones.Mov.Compras]
+Nombre=Mov.Compras
+Menu=&Procesos
+NombreDesplegar=C&ompras
+
+[MenuPrincipal.dlg/Acciones.Mov.Salir]
+Nombre=Mov.Salir
+Boton=0
+Menu=&Procesos
+NombreDesplegar=&Salir
+EnMenu=S
+EspacioPrevio=S
+TipoAccion=Ventana
+ClaveAccion=Cerrar
+Activo=S
+Visible=S
+
+[MenuPrincipal.dlg/Acciones.Cta.Articulos]
+Nombre=Cta.Articulos
+Boton=0
+Menu=&Cuentas
+NombreDesplegar=&Artículos
+
+[MenuPrincipal.dlg/Acciones.Cta.Clientes]
+Nombre=Cta.Clientes
+Menu=&Cuentas
+NombreDesplegar=&Clientes
+
+[MenuPrincipal.dlg/Acciones.Cta.Proveedores]
+Nombre=Cta.Proveedores
+Menu=&Cuentas
+NombreDesplegar=&Proveedores
+
+[MenuPrincipal.dlg/Acciones.Cta.Almacenes]
+Nombre=Cta.Almacenes
+Menu=&Cuentas
+NombreDesplegar=A&lmacenes
+
+[MenuPrincipal.dlg/Acciones.Cta.Agentes]
+Nombre=Cta.Agentes
+Menu=&Cuentas
+NombreDesplegar=Agen&tes
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Calculadora]
+Nombre=Herramienta.Calculadora
+Menu=&Herramientas
+NombreDesplegar=Ca&lculadora
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Calendario]
+Nombre=Herramienta.Calendario
+Menu=&Herramientas
+NombreDesplegar=&Calendario
+
+[MenuPrincipal.dlg/Acciones.Mov.Contabilidad]
+Nombre=Mov.Contabilidad
+Menu=&Procesos
+NombreDesplegar=Co&ntabilidad
+
+[MenuPrincipal.dlg/Acciones.Mov.Conciliaciones]
+Nombre=Mov.Conciliaciones
+Menu=&Procesos
+NombreDesplegar=Conciliaciones
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Exportar]
+Nombre=Herramienta.Exportar
+Menu=&Herramientas
+NombreDesplegar=&Exportar datos...
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Importar]
+Nombre=Herramienta.Importar
+Menu=&Herramientas
+NombreDesplegar=&Importar datos
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Paginas]
+Nombre=Herramienta.Paginas
+Menu=&Herramientas
+NombreDesplegar=Páginas (&Hojas de Cálculo)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.EstatusImpresiones]
+Nombre=Herramienta.EstatusImpresiones
+Menu=&Herramientas
+NombreDesplegar=Ver Se&rvidor de Impresiones
+
+[MenuPrincipal.dlg/Acciones.Mov.Gasto]
+Nombre=Mov.Gasto
+Menu=&Procesos
+NombreDesplegar=&Gastos
+
+[MenuPrincipal.dlg/Acciones.Mov.Servicios]
+Nombre=Mov.Servicios
+Boton=0
+Menu=&Procesos
+NombreDesplegar=&Servicios
+
+[MenuPrincipal.dlg/Acciones.Mov.Embarque]
+Nombre=Mov.Embarque
+Menu=&Procesos
+NombreDesplegar=&Embarques
+
+[MenuPrincipal.dlg/Acciones.Mov.ActivoFijo]
+Nombre=Mov.ActivoFijo
+Menu=&Procesos
+NombreDesplegar=Activos &Fijos
+
+[MenuPrincipal.dlg/Acciones.Mov.Nomina]
+Nombre=Mov.Nomina
+Menu=&Procesos
+NombreDesplegar=Nó&mina
+
+[MenuPrincipal.dlg/Acciones.Mov.RH]
+Nombre=Mov.RH
+Menu=&Procesos
+NombreDesplegar=Recursos &Humanos
+
+[MenuPrincipal.dlg/Acciones.Mov.Asiste]
+Nombre=Mov.Asiste
+Menu=&Procesos
+NombreDesplegar=&Asistencias
+
+[MenuPrincipal.dlg/Acciones.Mov.VentaSurtirCB]
+Nombre=Mov.VentaSurtirCB
+Menu=&Procesos
+NombreDesplegar=&Surtir Pedidos
+
+[MenuPrincipal.dlg/Acciones.MES.Menu]
+Nombre=MES.Menu
+Menu=&Procesos
+NombreDesplegar=MES
+
+[MenuPrincipal.dlg/Acciones.Mov.Produccion]
+Nombre=Mov.Produccion
+Menu=&Procesos
+NombreDesplegar=Pro&ducción
+
+[MenuPrincipal.dlg/Acciones.Mov.Planeador]
+Nombre=Mov.Planeador
+Menu=&Procesos
+NombreDesplegar=&Planeador Ordenes
+
+[MenuPrincipal.dlg/Acciones.Mov.DevVenta]
+Nombre=Mov.DevVenta
+Menu=&Procesos
+NombreDesplegar=De&voluciones
+
+[MenuPrincipal.dlg/Acciones.Herramienta.TipoCambio]
+Nombre=Herramienta.TipoCambio
+Menu=&Herramientas
+NombreDesplegar=Tipos de Cambio
+
+[MenuPrincipal.dlg/Acciones.Mov.PuntoVenta]
+Nombre=Mov.PuntoVenta
+Menu=&Procesos
+NombreDesplegar=&Punto Venta
+
+[MenuPrincipal.dlg/Acciones.Mov.Acceso]
+Nombre=Mov.Acceso
+Menu=&Procesos
+NombreDesplegar=Control Accesos
+
+[MenuPrincipal.dlg/Acciones.Mov.PC]
+Nombre=Mov.PC
+Menu=&Procesos
+NombreDesplegar=P&recios y Costos
+
+[MenuPrincipal.dlg/Acciones.Mov.Vales]
+Nombre=Mov.Vales
+Boton=0
+Menu=&Procesos
+NombreDesplegar=Vales
+
+[MenuPrincipal.dlg/Acciones.Mov.Comisiones]
+Nombre=Mov.Comisiones
+Menu=&Procesos
+NombreDesplegar=Comisiones y Desta&jos
+
+[MenuPrincipal.dlg/Acciones.Mov.AtnClientes]
+Nombre=Mov.AtnClientes
+Menu=&Procesos
+NombreDesplegar=Atención Clientes
+
+[MenuPrincipal.dlg/Acciones.Mov.AtnProveedores]
+Nombre=Mov.AtnProveedores
+Menu=&Procesos
+NombreDesplegar=Atención Proveedores
+
+[MenuPrincipal.dlg/Acciones.Mov.AtnPersonal]
+Nombre=Mov.AtnPersonal
+Menu=&Procesos
+NombreDesplegar=Atención Personal
+
+[MenuPrincipal.dlg/Acciones.Mov.AtnProyectos]
+Nombre=Mov.AtnProyectos
+Menu=&Procesos
+NombreDesplegar=Pro&yectos
+
+[MenuPrincipal.dlg/Acciones.Mov.Autotransportes]
+Nombre=Mov.Autotransportes
+Menu=&Procesos
+NombreDesplegar=&Autotransportes
+
+[MenuPrincipal.dlg/Acciones.Mov.ServiciosInternos]
+Nombre=Mov.ServiciosInternos
+Menu=&Procesos
+NombreDesplegar=Servicios Internos
+
+[MenuPrincipal.dlg/Acciones.Herramienta.RespaldarDatos]
+Nombre=Herramienta.RespaldarDatos
+Menu=&Herramientas
+NombreDesplegar=Respaldar Datos...
+
+[MenuPrincipal.dlg/Acciones.Mov.Importaciones]
+Nombre=Mov.Importaciones
+Menu=&Procesos
+NombreDesplegar=Importaciones
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Ford]
+Nombre=Herramienta.Ford
+Menu=&Herramientas
+NombreDesplegar=Ford
+
+[MenuPrincipal.dlg/Acciones.Herramienta.GenerarArchivo]
+Nombre=Herramienta.GenerarArchivo
+Menu=&Herramientas
+NombreDesplegar=Generar Archivo...
+
+[MenuPrincipal.dlg/Acciones.Mov.CR]
+Nombre=Mov.CR
+Menu=&Procesos
+NombreDesplegar=Cajas &Registradoras
+
+[MenuPrincipal.dlg/Acciones.Herramienta.TorreControl]
+Nombre=Herramienta.TorreControl
+Menu=&Herramientas
+NombreDesplegar=&Torre Control
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Recurrentes]
+Nombre=Herramienta.Recurrentes
+Menu=&Herramientas
+NombreDesplegar=Movimientos Recurrentes
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Actividades]
+Nombre=Herramienta.Actividades
+Menu=&Herramientas
+NombreDesplegar=Actividades - Movimientos Pendientes
+
+[MenuPrincipal.dlg/Acciones.Herramienta.ScoreBoard]
+Nombre=Herramienta.ScoreBoard
+Menu=&Herramientas
+NombreDesplegar=Score Board
+
+[MenuPrincipal.dlg/Acciones.Mov.ControlCalidad]
+Nombre=Mov.ControlCalidad
+Menu=&Procesos
+NombreDesplegar=Control Calidad
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Chrysler]
+Nombre=Herramienta.Chrysler
+Menu=&Herramientas
+NombreDesplegar=Chrysler
+
+[MenuPrincipal.dlg/Acciones.Herramienta.CabinaMando]
+Nombre=Herramienta.CabinaMando
+Menu=&Herramientas
+NombreDesplegar=Cabina Mando
+
+[MenuPrincipal.dlg/Acciones.Mov.Taller]
+Nombre=Mov.Taller
+Menu=&Procesos
+NombreDesplegar=&Taller
+
+[MenuPrincipal.dlg/Acciones.Mov.Mermas]
+Nombre=Mov.Mermas
+Menu=&Procesos
+NombreDesplegar=Mermas
+
+[MenuPrincipal.dlg/Acciones.Mov.Mantenimiento]
+Nombre=Mov.Mantenimiento
+Menu=&Procesos
+NombreDesplegar=Mantenimiento
+
+[MenuPrincipal.dlg/Acciones.Mov.Capital]
+Nombre=Mov.Capital
+Menu=&Procesos
+NombreDesplegar=Capital
+
+[MenuPrincipal.dlg/Acciones.Herramienta.EnviarCorreo]
+Nombre=Herramienta.EnviarCorreo
+Menu=&Herramientas
+NombreDesplegar=Enviar Correo
+
+[MenuPrincipal.dlg/Acciones.Mov.Incidencia]
+Nombre=Mov.Incidencia
+Menu=&Procesos
+NombreDesplegar=Incidencias
+
+[MenuPrincipal.dlg/Acciones.Herramienta.MovMover]
+Nombre=Herramienta.MovMover
+Menu=&Herramientas
+NombreDesplegar=&Mover Movimientos (Operación / Histórico)
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Tareas]
+Nombre=Herramienta.Tareas
+Menu=&Herramientas
+NombreDesplegar=&Tareas
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Agenda]
+Nombre=Herramienta.Agenda
+Menu=&Herramientas
+NombreDesplegar=Agenda
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Monitor]
+Nombre=Herramienta.Monitor
+Menu=&Herramientas
+NombreDesplegar=Monitor
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Hasp]
+Nombre=Herramienta.Hasp
+Menu=&Herramientas
+NombreDesplegar=&HASP<T>s
+
+[MenuPrincipal.dlg/Acciones.Mov.Proyectos]
+Nombre=Mov.Proyectos
+Menu=&Procesos
+NombreDesplegar=&Proyectos
+
+[MenuPrincipal.dlg/Acciones.Mov.Credito]
+Nombre=Mov.Credito
+Menu=&Procesos
+NombreDesplegar=&Crédito
+
+[MenuPrincipal.dlg/Acciones.Mov.Campana]
+Nombre=Mov.Campana
+Menu=&Procesos
+NombreDesplegar=&Campañas
+
+[MenuPrincipal.dlg/Acciones.Rep.Fiscales]
+Nombre=Rep.Fiscales
+Menu=&Reportes
+NombreDesplegar=&Fiscales
+
+[MenuPrincipal.dlg/Acciones.Herramienta.MenuVista]
+Nombre=Herramienta.MenuVista
+Menu=&Herramientas
+NombreDesplegar=Menú &Vista
+
+[MenuPrincipal.dlg/Acciones.Herramienta.Ticker]
+Nombre=Herramienta.Ticker
+Menu=&Herramientas
+NombreDesplegar=Ticker
+
+[MenuPrincipal.dlg/Acciones.Mov.Oferta]
+Nombre=Mov.Oferta
+Menu=&Procesos
+NombreDesplegar=&Ofertas
+
+[MenuPrincipal.dlg/Acciones.Mov.RSS]
+Nombre=Mov.RSS
+Menu=&Procesos
+NombreDesplegar=&Fuentes (RSS)
+
+[MenuPrincipal.dlg/Acciones.Mov.Riesgos]
+Nombre=Mov.Riesgos
+Menu=&Procesos
+NombreDesplegar=&Riesgos
+
+[MenuPrincipal.dlg/Acciones.Mov.EventosPerdida]
+Nombre=Mov.EventosPerdida
+Menu=&Procesos
+NombreDesplegar=E&ventos Perdida
+
+[MenuPrincipal.dlg/Acciones.Mov.Fiscal]
+Nombre=Mov.Fiscal
+Menu=&Procesos
+NombreDesplegar=&Fiscal
+
+[MenuPrincipal.dlg/Acciones.Mov.FormasExtras]
+Nombre=Mov.FormasExtras
+Menu=&Procesos
+NombreDesplegar=&Formas Extras
+
+[MenuPrincipal.dlg/Acciones.Herramienta.SincroSSB]
+Nombre=Herramienta.SincroSSB
+Menu=&Herramientas
+NombreDesplegar=&Sincronización (Service Broker)
+
+[MenuPrincipal.dlg/Acciones.Mov.Tarimas]
+Nombre=Mov.Tarimas
+Menu=&Logistica
+NombreDesplegar=&WMS
+
+[MenuPrincipal.dlg/Acciones.Web.Sitios]
+Nombre=Web.Sitios
+Menu=&Web
+NombreDesplegar=&Sitios
+
+;***** Intelisis 5000, Cambia el orden de Menu y se adañe las sig. lineas para regresar el Menu como estaba en la version 3100*****

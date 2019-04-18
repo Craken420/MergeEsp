@@ -1,0 +1,47 @@
+[Tabla]
+Icono=0
+Clave=ACD00022ZonasAgentes
+Archivo=ZonasAgentes
+Modulos=(Todos)
+TipoTabla=General
+ListaCampos=ID<BR>Agente<BR>Nombre<BR>zona
+LlavePrimaria=ID
+ControlID=S
+CampoID=ID
+SQL=SELECT<BR>  ID,<BR>  Agente,<BR>  Nombre,<BR>  zona<BR><BR>FROM<BR>  ZonasAgentes
+[ID]
+Clave=ID
+Nombre=ID
+Visible=S
+OpcionesColumnas=1
+OpcionesRenglones=8
+TamanoValidacion=10
+TipoDatos=AutoInc
+[Agente]
+Clave=Agente
+Nombre=Agente
+Visible=S
+OpcionesColumnas=1
+OpcionesRenglones=8
+TamanoValidacion=10
+TipoDatos=Texto
+Tamano=10
+[Nombre]
+Clave=Nombre
+Nombre=Nombre
+Visible=S
+OpcionesColumnas=1
+OpcionesRenglones=8
+TamanoValidacion=100
+TipoDatos=Texto
+Tamano=100
+[zona]
+Clave=zona
+Nombre=zona
+Visible=S
+TamanoValidacion=50
+Tamano=50
+AyudaEnCaptura=Expresion
+AyudaMemEnBlanco=S
+AyudaMemOpc=Unicamente opciones listadas
+Formula=SQLEnLista( <T>select  zona from zona with(nolock) where tipo = <T>+Comillas(<T>Supervisiones<T>) )
