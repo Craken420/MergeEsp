@@ -1,15 +1,11 @@
 [AccesoExpirado.frm/Forma]
-ExpresionesAlMostrar=SI SQL(<T>SELECT count(*) FROM USUARIO U<BR>    INNER JOIN TABLASTD TB ON TB.NOMBRE = U.ACCESO<BR>WHERE usuario =:tUsu<BR>    AND TB.TablaSt =:tTb<T>,USUARIO,<T>OMITIR CAMBIO DE CONTRASE�A<T>)=1<BR>ENTONCES<BR>    ABORTAROPERACION<BR>FIN
+ExpresionesAlMostrar=SI SQL(<T>SELECT count(*) FROM USUARIO<T>)
 
 [AccesoExpirado.frm/Acciones.Aceptar]
-EjecucionCondicion=SI SQL(<T> SELECT dbo.fn_DM0187ValidaContrasena(<T>+COMILLAS(USuario:Usuario.Contrasena)+<T>) <T>) = 1<BR>    ENTONCES<BR>       INFORMACION(<T>Tu contrase�a debe tener Numeros y Letras<T>)<BR>       FALSO<BR>    SINO<BR>       SI SQL(<T> SELECT dbo.fn_DM0187ValidaContrasena(<T>+COMILLAS(USuario:Usuario.Contrasena)+<T>) <T>) = 3<BR>          ENTONCES<BR>            INFORMACION(<T>La Longitud debe ser mayor a 6 Caracteres<T>)<BR>            FALSO<BR>          SINO<BR>             SI SQL(<T> SELECT dbo.fn_DM0187ContrasenaInsegura(<T>+COMILLAS(Usuario:Usuario.Contrasena)+<T>) <T>) = 1<BR>                ENTONCES<BR>                  INFORMACION(<T>Contrase�a Insegura,Intenta con Otra contrase�a.<T>)<BR>                  FALSO<BR>             SINO<BR>                Asigna(Info.Contrasena,MD5(<CONTINUA>
-EjecucionCondicion002=<CONTINUA>Usuario:Usuario.Contrasena))<BR>                   SI sql(<T>select Contrasena from usuario where Usuario =:tUsu<T>,Usuario:Usuario.Usuario) = Info.Contrasena<BR>                      ENTONCES<BR>                         ERROR(<T>Tu contrase�a debe ser diferente a la Anterior<T>)<BR>                         FALSO<BR>                      SINO<BR>                         SI Usuario:Usuario.Contrasena <> Usuario.Contrasena<BR>                            ENTONCES<BR>                              VERDADERO<BR>                            SINO<BR>                               ERROR(<T>Es necesario que Cambie su Contrase�a<T>)<BR>                               FALSO<BR>                            FIN<BR>                     FIN<BR>              FIN<BR>       FIN<BR>FIN
+EjecucionCondicion=SI SQL(<T> SELECT *from usuario
 EjecucionMensaje=
+EjecucionMensaje='ola'
+EjecucionMensaje='ad
 
 [AccesoExpirado.frm/Artemio]
-ExpresionesAlMostrar=SI SQL(<T>SELECT count(*) FROM USUARIO U<BR>    INNER JOIN TABLASTD TB ON TB.NOMBRE = U.ACCESO<BR>WHERE usuario =:tUsu<BR>    AND TB.TablaSt =:tTb<T>,USUARIO,<T>OMITIR CAMBIO DE CONTRASE�A<T>)=1<BR>ENTONCES<BR>    ABORTAROPERACION<BR>FIN
-
-
-
-
-
+ExpresionesAlMostrar=SI SQL
