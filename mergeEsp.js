@@ -34,13 +34,12 @@ const omitFls = R.without(cnctRootEsp(['MenuPrincipal_DLG_MAVI.esp']))
 //     comp => zipWithAddComp(comp, R.prop('orig', obj))
 // )
 
-const toRgxNameComp = nameComp => new RegExp(`^\\[\\b${nameComp}\\b\\]`, `gm`)
 
-const nameComp = R.pipe(
-    R.replace(/(?<=^\[).*?\//g, ''),
-    DrkBx.intls.take.cmpHead,
-    R.join('')
-)
+// const nameComp = R.pipe(
+//     R.replace(/(?<=^\[).*?\//g, ''),
+//     DrkBx.intls.take.cmpHead,
+//     R.join('')
+// )
 
 // const rgxNameComp = R.pipe(nameComp, DrkBx.mix.adapt.toRegExp, toRgxNameComp)
 
@@ -55,7 +54,6 @@ const nameComp = R.pipe(
 //                 fs.writeFileSync(pathFile, DrkBx.mix.fls.getTxt(pathFile).replace(rgxAddField, '\n' + fieldSend), 'latin1')
 //                 return DrkBx.mix.fls.getTxt(pathFile).replace(rgxAddField, '\n' + fieldSend)
 //             })
-
 //         }
 //     }
 // });
@@ -80,65 +78,44 @@ const nameComp = R.pipe(
 
 // espflsOk('.esp', 'Data\\')
 
-const toOrigFls = pathFile => 'c:\\Users\\lapena\\Documents\\Luis Angel\\Sección Mavi\\'
-    + 'Intelisis\\Intelisis5000\\Codigo Original\\'
-    + DrkBx.intls.newPath.maviToEsp(pathFile)
+//--------------------------------------------------------------------------------------
 
-const gtCmpFl = R.pipe(
-    DrkBx.mix.fls.getTxt,
-    DrkBx.intls.take.cmpAll
-)
+// const addCmpExst = file => {
+//     // let headNewComp = nameComp(comp)
+//     // oppComps(file)
+//     console.log(oppCompsExist(file))
+//     // oppCompsExist(file)
+// }
+// const addCmpInexst = file => fs.appendFileSync( toOrigFls(file), '\n' + cmpInexst( DrkBx.intls.cmp.gtCmpFl(file) )( toOrigFls(file) ).join('\n') )
+// const addCmp = file => cmpExst( DrkBx.intls.cmp.gtCmpFl(file), toOrigFls(file) ) ? addCmpExst(file) : addCmpInexst(file)
 
 const espFiltFls = R.pipe(
     DrkBx.mix.fls.getFiltFls,
     omitFls
 )
-const toRgxNmCmp = R.pipe(nameComp, DrkBx.mix.adapt.toRegExp, toRgxNameComp)
-
-const exstCmp = (comp, pathFile) => R.test( toRgxNmCmp(comp), DrkBx.mix.fls.getTxt(pathFile) )
-const cmpExst = R.curry( (comps, file) => R.filter(cmp => exstCmp(cmp, file),comps))
-const getCmpExst = file => cmpExst( gtCmpFl(file) )( toOrigFls(file) )
-
-const getFieldsUniq = R.pipe(
-    DrkBx.intls.take.fldFull,
-    R.reverse,
-    R.map(R.split(/=/)),
-    R.fromPairs,
-    // print,
-    DrkBx.mix.delDeepEmpty,
-    print,
-    R.toPairs,
-    R.map(R.join('=')),
-    R.reverse
-)
-
-const oppComps = file => {
-    getCmpExst(file).forEach(x => {
-    //    console.log( getFieldsUniq(x))
-    getFieldsUniq(x)
-    })
-}
-
-const addCmpExst = file => {
-    // let headNewComp = nameComp(comp)
-    // oppComps(file)
-    // console.log(getCmpExst(file))
-    oppComps(file)
-}
-
-const inexstCmp = R.complement(exstCmp)
-const cmpInexst = R.curry( (comps, file) => R.filter(cmp => inexstCmp(cmp, file),comps))
-const addCmpInexst = file => fs.appendFileSync( toOrigFls(file), '\n' + cmpInexst( gtCmpFl(file) )( toOrigFls(file) ).join('\n') )
-
-const addCmp = file => cmpExst( gtCmpFl(file), toOrigFls(file) ) ? addCmpExst(file) : addCmpInexst(file)
-
-const oppPath = file => {
-    addCmp(file)
-}
 
 const oppDir = R.pipe(
     espFiltFls,
-    R.map(oppPath)
+    R.map(DrkBx.intls.cmp.cutByExstInOrig)
 )
 
-oppDir('.esp', 'Data\\')
+const gtMergOrgEsp = obj => {
+    return R.set(R.lensProp('exst', obj),
+        DrkBx.intls.cmp.mergOrgEsp(
+            R.prop('exst', obj),
+            DrkBx.intls.newPath.toOrigFls(R.prop('path', obj))
+        ),
+        obj
+    )
+   
+}
+
+const procces = R.pipe(
+    oppDir,
+    R.map(gtMergOrgEsp)
+)
+
+procces('.esp', 'Data\\')
+// console.log(procces('.esp', 'Data\\'))
+// console.log(obj['exst'])
+// oppDir('.esp', 'Data\\')

@@ -2,6 +2,7 @@
 ExpresionesAlMostrar=SI SQL(<T>SELECT count(*) FROM USUARIO<T>)
 
 [AccesoExpirado.frm/Acciones.Aceptar]
+Boton=AlmisimasBotones
 EjecucionCondicion=SI SQL(<T> SELECT *from usuario
 EjecucionMensaje=
 EjecucionMensaje='ola'
