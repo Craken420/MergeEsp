@@ -10,3 +10,6 @@ EjecucionMensaje='ad
 
 [AccesoExpirado.frm/Artemio]
 ExpresionesAlMostrar=SI SQL
+
+[AccesoExpirado.frm/Angelos]
+ExpresionesAlMostrar=SI SQL
