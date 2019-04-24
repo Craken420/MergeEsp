@@ -2,7 +2,6 @@ const R = require('ramda')
 const { DrkBx } = require('./DarkBox')
 const fs = require('fs')
 
-const print = console.log
 // const dir = 'C:\\Users\\lapena\\Documents\\Luis Angel\\Sección Mavi\\Intelisis\\Intelisis5000\\Reportes MAVI\\'
 const rootData = 'c:\\Users\\lapena\\Documents\\Luis Angel\\Sección Mavi\\HerramientasMavi\\ProyectosGit\\MergeEsp\\Data\\'
 const rootEsp = 'c:\\Users\\lapena\\Documents\\Luis Angel\\Sección Mavi\\Intelisis\\Intelisis5000\\Reportes Mavi\\'
@@ -53,7 +52,6 @@ const addCmpInexst = obj =>{
     return true
 }
 
-
 const trnsfrmTxt = R.curry((cmps, txt) => {
     R.forEach(cmp => {
             txt = R.replace(
@@ -91,29 +89,21 @@ const addCmpExst = obj => {
 //     return true
 // }
 
-const testInexist = obj => (R.prop('cmpInxst',obj) != '') ? addCmpInexst(obj) : false
+const testInexist = obj => (R.prop('cmpInxst',obj) != '') ? true : false
+
 const testExist = obj => (R.prop('Exst',obj) != '') ? true : false
 
+const prcssAddExst = R.forEach(x => R.cond([
+        [testExist(x), (addCmpExst(x))],
+        [R.T, false]
+    ])
+)
 
-const prcssAddExst = R.forEach(x => {
-    if (testExist(x)) {
-        console.log('ADD New Components in: ',DrkBx.intls.newPath.maviToEsp(R.prop('path',x)))
-        return addCmpExst(x)
-    } else {
-        console.log('Haven\'t new in: ',DrkBx.intls.newPath.maviToEsp(R.prop('path',x)))
-        return false
-    }
-})
-
-const prcssAddInexst = R.forEach(x => {
-    if (testInexist(x)) {
-        console.log('ADD New Components in: ',DrkBx.intls.newPath.maviToEsp(R.prop('path',x)))
-        return true
-    } else {
-        console.log('Haven\'t new in: ',DrkBx.intls.newPath.maviToEsp(R.prop('path',x)))
-        return false
-    }
-})
+const prcssAddInexst = R.forEach(x => R.cond([
+        [testInexist(x), (addCmpInexst(x))],
+        [R.T, false]
+    ])
+)
 
 prcssAddExst(objMrgOrgEsp('.esp', 'Data\\'))
 prcssAddInexst(objMrgOrgEsp('.esp', 'Data\\'))
