@@ -35,72 +35,24 @@ const objMrgOrgEsp = R.pipe(
     R.map(gtMergOrgEsp)
 )
 
-// const addCmpInexst = obj =>{
-//     fs.appendFileSync(
-//         DrkBx.intls.newPath.toOrigFls(R.prop('path', obj)),
-//         '\n' + R.prop('cmpInxst', obj)
-//     )
-//     return true
-// }
-
-const addCmpInexst = obj =>{
-    fs.appendFileSync(
-        'Data\\' + DrkBx.intls.newPath.maviToEsp(R.prop('path', obj)),
-        '\n' + R.prop('cmpInxst', obj),
-        'latin1'
-    )
-    return true
-}
-
-const trnsfrmTxt = R.curry((cmps, txt) => {
-    R.forEach(cmp => {
-            txt = R.replace(
-                DrkBx.intls.make.cmpByName(DrkBx.intls.fnCmp.getName(cmp)),
-                cmp + '\n',
-                txt
-            )
-        },
-        cmps
-    )
-    return txt
-})
-
-const addCmpExst = obj => {
-    fs.writeFileSync(
-        'Data\\' + DrkBx.intls.newPath.maviToEsp(R.prop('path', obj)),
-        trnsfrmTxt(
-            R.prop('exst', obj),
-            DrkBx.mix.fls.gtLtnTxt(DrkBx.intls.newPath.toOrigFls(R.prop('path', obj)))
-        ),
-        'latin1'
-    )
-    return true
-}
-
-// const addCmpExst = obj => {
-//     fs.writeFileSync(
-//         DrkBx.intls.newPath.toOrigFls(R.prop('path', obj)),
-//         trnsfrmTxt(
-//             R.prop('exst', obj),
-//             DrkBx.mix.fls.gtLtnTxt(DrkBx.intls.newPath.toOrigFls(R.prop('path', obj)))
-//         ),
-//         'Latin1'
-//     )
-//     return true
-// }
-
 const testInexist = obj => (R.prop('cmpInxst',obj) != '') ? true : false
 
 const testExist = obj => (R.prop('Exst',obj) != '') ? true : false
 
 const prcssAddExst = R.forEach(x => R.cond([
-        [testExist(x), (addCmpExst(x))],
+        [testExist(x), DrkBx.intls.fnCmp.addCmpExst(
+            R.prop('exst', x),
+            DrkBx.intls.newPath.toOrigFls(R.prop('path', x))
+        )],
         [R.T, false]
     ])
 )
 
 const prcssAddInexst = R.forEach(x => R.cond([
-        [testInexist(x), (addCmpInexst(x))],
+        [testInexist(x), DrkBx.intls.fnCmp.addCmpInexst(
+            R.prop('cmpInxst', x),
+            DrkBx.intls.newPath.toOrigFls(R.prop('path', x))
+        )],
         [R.T, false]
     ])
 )

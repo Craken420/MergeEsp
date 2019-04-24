@@ -13,5 +13,10 @@ EjecucionMensaje='ad
 ExpresionesAlMostrar=SI SQL
 
 [AccesoExpirado.frm/Angelos]
-ExpresionesAlMostrar=SI SQL
+Boton=AlmisimasBotones
+EjecucionCondicion=SI SQL(<T> SELECT *from usuario
+EjecucionMensaje=
+EjecucionMensaje='ola'
+NewFieldididididididididididmo=looooooooooooooooooooooooooooooooooooooooooooooool
+EjecucionMensaje='ad
 
