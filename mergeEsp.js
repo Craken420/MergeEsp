@@ -1,6 +1,5 @@
 const R = require('ramda')
 const { DrkBx } = require('./DarkBox')
-const fs = require('fs')
 
 // const dir = 'C:\\Users\\lapena\\Documents\\Luis Angel\\Sección Mavi\\Intelisis\\Intelisis5000\\Reportes MAVI\\'
 const rootData = 'c:\\Users\\lapena\\Documents\\Luis Angel\\Sección Mavi\\HerramientasMavi\\ProyectosGit\\MergeEsp\\Data\\'
@@ -20,12 +19,14 @@ const cmpsCutByExst = R.pipe(
     R.map(DrkBx.intls.fnCmp.cutByExstInOrig)
 )
 
+const gtPthToOrig = R.pipe(
+    R.prop('path'),
+    DrkBx.intls.newPath.toOrigFls
+)
+
 const gtMergOrgEsp = obj => {
     return R.set(R.lensProp('exst', obj),
-        DrkBx.intls.fnCmp.mergOrgEsp(
-            R.prop('exst', obj),
-            DrkBx.intls.newPath.toOrigFls(R.prop('path', obj))
-        ),
+        DrkBx.intls.fnCmp.mergOrgEsp( R.prop('exst', obj) )( gtPthToOrig(obj) ),
         obj
     )
 }
@@ -40,19 +41,17 @@ const testInexist = obj => (R.prop('cmpInxst',obj) != '') ? true : false
 const testExist = obj => (R.prop('Exst',obj) != '') ? true : false
 
 const prcssAddExst = R.forEach(x => R.cond([
-        [testExist(x), DrkBx.intls.fnCmp.addCmpExst(
-            R.prop('exst', x),
-            DrkBx.intls.newPath.toOrigFls(R.prop('path', x))
-        )],
+        [testExist(x),
+            DrkBx.intls.fnCmp.addCmpExst( R.prop('exst', x) )( gtPthToOrig(x) ) 
+        ],
         [R.T, false]
     ])
 )
 
 const prcssAddInexst = R.forEach(x => R.cond([
-        [testInexist(x), DrkBx.intls.fnCmp.addCmpInexst(
-            R.prop('cmpInxst', x),
-            DrkBx.intls.newPath.toOrigFls(R.prop('path', x))
-        )],
+        [testInexist(x), 
+            DrkBx.intls.fnCmp.addCmpInexst( R.prop('cmpInxst', x ) )( gtPthToOrig(x) )
+        ],
         [R.T, false]
     ])
 )
