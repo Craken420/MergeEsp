@@ -36,13 +36,23 @@ const objMrgOrgEsp = R.pipe(
     R.map(gtMergOrgEsp)
 )
 
+// const addCmpInexst = obj =>{
+//     fs.appendFileSync(
+//         DrkBx.intls.newPath.toOrigFls(R.prop('path', obj)),
+//         '\n' + R.prop('cmpInxst', obj)
+//     )
+//     return true
+// }
+
 const addCmpInexst = obj =>{
     fs.appendFileSync(
-        DrkBx.intls.newPath.toOrigFls(R.prop('path', obj)),
-        '\n' + R.prop('cmpInxst', obj)
+        'Data\\' + DrkBx.intls.newPath.maviToEsp(R.prop('path', obj)),
+        '\n' + R.prop('cmpInxst', obj),
+        'latin1'
     )
     return true
 }
+
 
 const trnsfrmTxt = R.curry((cmps, txt) => {
     R.forEach(cmp => {
@@ -59,28 +69,31 @@ const trnsfrmTxt = R.curry((cmps, txt) => {
 
 const addCmpExst = obj => {
     fs.writeFileSync(
-        DrkBx.intls.newPath.toOrigFls(R.prop('path', obj)),
+        'Data\\' + DrkBx.intls.newPath.maviToEsp(R.prop('path', obj)),
         trnsfrmTxt(
             R.prop('exst', obj),
-            DrkBx.mix.fls.getTxt(DrkBx.intls.newPath.toOrigFls(R.prop('path', obj)))
+            DrkBx.mix.fls.gtLtnTxt(DrkBx.intls.newPath.toOrigFls(R.prop('path', obj)))
         ),
-        'Latin1'
+        'latin1'
     )
     return true
 }
 
-const testInexist = obj => (R.prop('cmpInxst',obj) != '') ? true : false
+// const addCmpExst = obj => {
+//     fs.writeFileSync(
+//         DrkBx.intls.newPath.toOrigFls(R.prop('path', obj)),
+//         trnsfrmTxt(
+//             R.prop('exst', obj),
+//             DrkBx.mix.fls.gtLtnTxt(DrkBx.intls.newPath.toOrigFls(R.prop('path', obj)))
+//         ),
+//         'Latin1'
+//     )
+//     return true
+// }
+
+const testInexist = obj => (R.prop('cmpInxst',obj) != '') ? addCmpInexst(obj) : false
 const testExist = obj => (R.prop('Exst',obj) != '') ? true : false
 
-const prcssAddInexst = R.forEach(x => {
-    if (testInexist(x)) {
-        console.log('ADD New Components in: ',DrkBx.intls.newPath.maviToEsp(R.prop('path',x)))
-        return addCmpInexst(x)
-    } else {
-        console.log('Haven\'t new in: ',DrkBx.intls.newPath.maviToEsp(R.prop('path',x)))
-        return false
-    }
-})
 
 const prcssAddExst = R.forEach(x => {
     if (testExist(x)) {
@@ -92,5 +105,16 @@ const prcssAddExst = R.forEach(x => {
     }
 })
 
-prcssAddInexst(objMrgOrgEsp('.esp', 'Data\\'))
+const prcssAddInexst = R.forEach(x => {
+    if (testInexist(x)) {
+        console.log('ADD New Components in: ',DrkBx.intls.newPath.maviToEsp(R.prop('path',x)))
+        return true
+    } else {
+        console.log('Haven\'t new in: ',DrkBx.intls.newPath.maviToEsp(R.prop('path',x)))
+        return false
+    }
+})
+
 prcssAddExst(objMrgOrgEsp('.esp', 'Data\\'))
+prcssAddInexst(objMrgOrgEsp('.esp', 'Data\\'))
+
