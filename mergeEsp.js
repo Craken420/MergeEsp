@@ -2,7 +2,7 @@ const R = require('ramda')
 const { DrkBx } = require('./DarkBox')
 
 // const dir = 'C:\\Users\\lapena\\Documents\\Luis Angel\\Sección Mavi\\Intelisis\\Intelisis5000\\Reportes MAVI\\'
-const rootData = 'c:\\Users\\lapena\\Documents\\Luis Angel\\Sección Mavi\\HerramientasMavi\\ProyectosGit\\MergeEsp\\Data\\'
+const rootData = 'Data\\'
 const rootEsp = 'c:\\Users\\lapena\\Documents\\Luis Angel\\Sección Mavi\\Intelisis\\Intelisis5000\\Reportes Mavi\\'
 
 const cnctRootEsp = R.map(file => rootData + file)
@@ -14,48 +14,72 @@ const espFiltFls = R.pipe(
     omitFls
 )
 
-const cmpsCutByExst = R.pipe(
-    espFiltFls,
-    R.map( DrkBx.intls.fnCmp.cutByExstInOrig )
-)
-
 const gtPthToOrig = R.pipe(
     R.prop('path'),
     DrkBx.intls.newPath.toOrigFls
 )
 
-const gtMergOrgEsp = obj => {
+const gtMergOrgEspCmps = obj => {
     return R.set( R.lensProp('exst', obj),
         DrkBx.intls.fnCmp.mergOrgEsp( R.prop('exst', obj) )( gtPthToOrig(obj) ),
         obj
     )
 }
 
-const objMrgOrgEsp = R.pipe(
-    cmpsCutByExst,
-    R.map(gtMergOrgEsp)
+const testInxst = obj => ( R.prop('cmpInxst', obj) != '' ) ? true : false
+
+const testExist = obj => ( R.prop('exst', obj) != '' ) ? true : false
+
+const addCmpsExst = obj => R.cond([
+    [testExist(obj),
+        DrkBx.intls.fnCmp.addCmpExst( R.prop('exst', obj) )( gtPthToOrig(obj) ) 
+    ],
+    [R.T, false]
+])
+
+
+const addCmpsInxst = obj => R.cond([
+    [testInxst(obj),
+        DrkBx.intls.fnCmp.addCmpInexst( R.prop('cmpInxst', obj) )( gtPthToOrig(obj) )
+    ],
+    [R.T, false]
+])
+
+const addCmpsToFile = R.both(addCmpsExst, addCmpsInxst)
+
+const cutByExistAndMrg = R.pipe(
+    DrkBx.intls.fnCmp.cutByExstInOrig,
+    gtMergOrgEspCmps,
 )
 
-const testInexist = obj => ( R.prop('cmpInxst', obj) != '' ) ? true : false
-
-const testExist = obj => ( R.prop('Exst', obj) != '' ) ? true : false
-
-const prcssAddExst = R.forEach(x => R.cond([
-        [testExist(x),
-            DrkBx.intls.fnCmp.addCmpExst( R.prop('exst', x) )( gtPthToOrig(x) ) 
-        ],
-        [R.T, false]
-    ])
+const mrgEspFl = R.pipe(
+    cutByExistAndMrg,
+    addCmpsToFile
 )
 
-const prcssAddInexst = R.forEach(x => R.cond([
-        [testInexist(x),
-            DrkBx.intls.fnCmp.addCmpInexst( R.prop('cmpInxst', x) )( gtPthToOrig(x) )
-        ],
-        [R.T, false]
-    ])
+const mrgDirEspFls = R.curry( (ext, dir) => {
+    espFiltFls(ext, dir).forEach(file => {
+        mrgEspFl(file)
+    })
+})
+
+const selectMergeFile = R.pipe(
+    R.forEach(mrgEspFl)
 )
 
-prcssAddExst(objMrgOrgEsp('.esp', 'Data\\'))
-prcssAddInexst(objMrgOrgEsp('.esp', 'Data\\'))
+module.exports.mergeEsp = {
+    mrgDirEspFls: mrgDirEspFls,
+    mrgEspFl: mrgEspFl,
+    selectMergeFile: selectMergeFile
+}
 
+/* Usage */
+
+/* Opp dir of .esp files */
+// mrgDirEspFls('.esp','Data\\')
+
+/* Opp .esp file */
+// mrgEspFl('Data\\AccesoExpirado_FRM_MAVI.esp')
+
+/* Opp with indicate files */
+// selectMergeFile(cnctRootEsp(['AccesoExpirado_FRM_MAVI.esp','ActivoFijo_TBL_MAVI.esp']))
